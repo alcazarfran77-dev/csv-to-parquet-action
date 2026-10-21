@@ -10,12 +10,11 @@ Notes for the maintainer. GitHub's guide: [Publishing actions in GitHub Marketpl
 
 ## First release
 
-1. Replace `OWNER` in `README.md` with your GitHub user or organization name.
-2. Push to a public repository named `csv-to-parquet-action` and check that the **Test** workflow is green.
-3. Open `action.yml` on GitHub: a banner offers to publish the action. Click **Draft a release**.
-4. Tick **Publish this Action to the GitHub Marketplace**, fix anything the checker reports until it says *Everything looks good!*, and choose a primary category (for example **Utilities**) and, optionally, a second one.
-5. Tag: `v1.0.0`, title: `v1.0.0`. Click **Publish release**.
-6. Create the moving major tag so `@v1` works:
+1. Push to the public repository `alcazarfran77-dev/csv-to-parquet-action` and check that the **Test** workflow is green.
+2. Open `action.yml` on GitHub: a banner offers to publish the action. Click **Draft a release**.
+3. Tick **Publish this Action to the GitHub Marketplace**, fix anything the checker reports until it says *Everything looks good!*, and choose a primary category (for example **Utilities**) and, optionally, a second one.
+4. Tag: `v1.0.0`, title: `v1.0.0`. Click **Publish release**.
+5. Create the moving major tag so `@v1` works:
 
    ```bash
    git fetch --tags

@@ -2,12 +2,12 @@
 
 A GitHub Action that converts **CSV and JSON** files to **Apache Parquet** inside your workflow. It detects separators, encodings, decimal commas and column types on its own, reads JSON lists, JSON Lines and wrapped records, and can split the output into parts or combine many files into one.
 
-It runs the same engine as the [CSV to Parquet](../../../csv-to-parquet) desktop and browser app, on Linux, Windows and macOS runners.
+It runs the same engine as the [CSV to Parquet](https://github.com/alcazarfran77-dev/csv-to-parquet) desktop and browser app, on Linux, Windows and macOS runners.
 
 ## Usage
 
 ```yaml
-- uses: OWNER/csv-to-parquet-action@v1
+- uses: alcazarfran77-dev/csv-to-parquet-action@v1
   with:
     path: data/**/*.csv
     output: parquet
@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: OWNER/csv-to-parquet-action@v1
+      - uses: alcazarfran77-dev/csv-to-parquet-action@v1
         id: parquet
         with:
           path: |
@@ -42,7 +42,7 @@ jobs:
 ### Combine every file into one dataset, split into parts
 
 ```yaml
-- uses: OWNER/csv-to-parquet-action@v1
+- uses: alcazarfran77-dev/csv-to-parquet-action@v1
   with:
     path: data/daily
     output: warehouse
@@ -55,7 +55,7 @@ jobs:
 Nothing to configure: they are detected. To force the reading options:
 
 ```yaml
-- uses: OWNER/csv-to-parquet-action@v1
+- uses: alcazarfran77-dev/csv-to-parquet-action@v1
   with:
     path: exports/*.csv
     separator: ";"

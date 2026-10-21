@@ -1,0 +1,7 @@
+*.sh      text eol=lf
+*.py      text eol=lf
+*.yml     text eol=lf
+*.md      text eol=lf
+*.json    text eol=lf
+# Test files must stay byte for byte (one is Windows-1252 with CRLF on purpose)
+tests/data/** -text -diff

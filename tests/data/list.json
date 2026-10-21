@@ -1,0 +1,7417 @@
+[
+  {
+    "id": 0,
+    "part": "PT-00000",
+    "ok": true,
+    "date": "2026-01-01",
+    "time": "2026-10-01T00:00:00",
+    "customer": {
+      "name": "Customer 0",
+      "country": "MX",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ",
+    "extra": 0
+  },
+  {
+    "id": 1,
+    "part": "PT-00001",
+    "size": 12.2446,
+    "ok": true,
+    "date": "2026-02-02",
+    "time": "2026-10-01T01:01:07",
+    "customer": {
+      "name": "Customer 1",
+      "country": "ES",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 2,
+    "part": "PT-00002",
+    "size": 12.4473,
+    "ok": true,
+    "date": "2026-03-03",
+    "time": "2026-10-01T02:02:14",
+    "customer": {
+      "name": "Customer 2",
+      "country": "FR",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 3,
+    "part": "PT-00003",
+    "size": 12.9448,
+    "ok": true,
+    "date": "2026-04-04",
+    "time": "2026-10-01T03:03:21",
+    "customer": {
+      "name": "Customer 3",
+      "country": "FR",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 4,
+    "part": "PT-00004",
+    "size": 12.1664,
+    "ok": true,
+    "date": "2026-05-05",
+    "time": "2026-10-01T04:04:28",
+    "customer": {
+      "name": "Customer 4",
+      "country": "MX",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 5,
+    "part": "PT-00005",
+    "size": 12.4652,
+    "ok": true,
+    "date": "2026-06-06",
+    "time": "2026-10-01T05:05:35",
+    "customer": {
+      "name": "Customer 5",
+      "country": "FR",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 6,
+    "part": "PT-00006",
+    "size": 12.76,
+    "ok": true,
+    "date": "2026-07-07",
+    "time": "2026-10-01T06:06:42",
+    "customer": {
+      "name": "Customer 6",
+      "country": "MX",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 7,
+    "part": "PT-00007",
+    "ok": true,
+    "date": "2026-08-08",
+    "time": "2026-10-01T07:07:49",
+    "customer": {
+      "name": "Customer 7",
+      "country": "MX",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 8,
+    "part": "PT-00008",
+    "size": 12.8348,
+    "ok": true,
+    "date": "2026-09-09",
+    "time": "2026-10-01T08:08:56",
+    "customer": {
+      "name": "Customer 8",
+      "country": "ES",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 9,
+    "part": "PT-00009",
+    "size": 11.7872,
+    "ok": true,
+    "date": "2026-10-10",
+    "time": "2026-10-01T09:09:03",
+    "customer": {
+      "name": "Customer 9",
+      "country": "MX",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 10,
+    "part": "PT-00010",
+    "size": 12.6164,
+    "ok": true,
+    "date": "2026-11-11",
+    "time": "2026-10-01T10:10:10",
+    "customer": {
+      "name": "Customer 10",
+      "country": "ES",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 11,
+    "part": "PT-00011",
+    "size": 12.559,
+    "ok": true,
+    "date": "2026-12-12",
+    "time": "2026-10-01T11:11:17",
+    "customer": {
+      "name": "Customer 11",
+      "country": "MX",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 12,
+    "part": "PT-00012",
+    "size": 12.1623,
+    "ok": true,
+    "date": "2026-01-13",
+    "time": "2026-10-01T12:12:24",
+    "customer": {
+      "name": "Customer 12",
+      "country": "MX",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 13,
+    "part": "PT-00013",
+    "size": 12.2436,
+    "ok": true,
+    "date": "2026-02-14",
+    "time": "2026-10-01T13:13:31",
+    "customer": {
+      "name": "Customer 13",
+      "country": "MX",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 14,
+    "part": "PT-00014",
+    "ok": true,
+    "date": "2026-03-15",
+    "time": "2026-10-01T14:14:38",
+    "customer": {
+      "name": "Customer 14",
+      "country": "MX",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 15,
+    "part": "PT-00015",
+    "size": 12.5081,
+    "ok": false,
+    "date": "2026-04-16",
+    "time": "2026-10-01T15:15:45",
+    "customer": {
+      "name": "Customer 15",
+      "country": "ES",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 16,
+    "part": "PT-00016",
+    "size": 12.3725,
+    "ok": true,
+    "date": "2026-05-17",
+    "time": "2026-10-01T16:16:52",
+    "customer": {
+      "name": "Customer 16",
+      "country": "ES",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 17,
+    "part": "PT-00017",
+    "size": 12.2219,
+    "ok": true,
+    "date": "2026-06-18",
+    "time": "2026-10-01T17:17:59",
+    "customer": {
+      "name": "Customer 17",
+      "country": "ES",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 18,
+    "part": "PT-00018",
+    "size": 12.6951,
+    "ok": true,
+    "date": "2026-07-19",
+    "time": "2026-10-01T18:18:06",
+    "customer": {
+      "name": "Customer 18",
+      "country": "ES",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 19,
+    "part": "PT-00019",
+    "size": 12.6854,
+    "ok": true,
+    "date": "2026-08-20",
+    "time": "2026-10-01T19:19:13",
+    "customer": {
+      "name": "Customer 19",
+      "country": "MX",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 20,
+    "part": "PT-00020",
+    "size": 12.6841,
+    "ok": false,
+    "date": "2026-09-21",
+    "time": "2026-10-01T20:20:20",
+    "customer": {
+      "name": "Customer 20",
+      "country": "FR",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 21,
+    "part": "PT-00021",
+    "ok": true,
+    "date": "2026-10-22",
+    "time": "2026-10-01T21:21:27",
+    "customer": {
+      "name": "Customer 21",
+      "country": "ES",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 22,
+    "part": "PT-00022",
+    "size": 12.7738,
+    "ok": true,
+    "date": "2026-11-23",
+    "time": "2026-10-01T22:22:34",
+    "customer": {
+      "name": "Customer 22",
+      "country": "MX",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 23,
+    "part": "PT-00023",
+    "size": 12.6185,
+    "ok": true,
+    "date": "2026-12-24",
+    "time": "2026-10-01T23:23:41",
+    "customer": {
+      "name": "Customer 23",
+      "country": "ES",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 24,
+    "part": "PT-00024",
+    "size": 12.5209,
+    "ok": true,
+    "date": "2026-01-25",
+    "time": "2026-10-01T00:24:48",
+    "customer": {
+      "name": "Customer 24",
+      "country": "MX",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 25,
+    "part": "PT-00025",
+    "size": 11.9116,
+    "ok": true,
+    "date": "2026-02-26",
+    "time": "2026-10-01T01:25:55",
+    "customer": {
+      "name": "Customer 25",
+      "country": "ES",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 26,
+    "part": "PT-00026",
+    "size": 12.3873,
+    "ok": true,
+    "date": "2026-03-27",
+    "time": "2026-10-01T02:26:02",
+    "customer": {
+      "name": "Customer 26",
+      "country": "ES",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 27,
+    "part": "PT-00027",
+    "size": 12.3722,
+    "ok": true,
+    "date": "2026-04-28",
+    "time": "2026-10-01T03:27:09",
+    "customer": {
+      "name": "Customer 27",
+      "country": "MX",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 28,
+    "part": "PT-00028",
+    "ok": true,
+    "date": "2026-05-01",
+    "time": "2026-10-01T04:28:16",
+    "customer": {
+      "name": "Customer 28",
+      "country": "MX",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 29,
+    "part": "PT-00029",
+    "size": 11.9795,
+    "ok": true,
+    "date": "2026-06-02",
+    "time": "2026-10-01T05:29:23",
+    "customer": {
+      "name": "Customer 29",
+      "country": "FR",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 30,
+    "part": "PT-00030",
+    "size": 12.0043,
+    "ok": true,
+    "date": "2026-07-03",
+    "time": "2026-10-01T06:30:30",
+    "customer": {
+      "name": "Customer 30",
+      "country": "MX",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 31,
+    "part": "PT-00031",
+    "size": 12.86,
+    "ok": true,
+    "date": "2026-08-04",
+    "time": "2026-10-01T07:31:37",
+    "customer": {
+      "name": "Customer 0",
+      "country": "MX",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 32,
+    "part": "PT-00032",
+    "size": 12.782,
+    "ok": true,
+    "date": "2026-09-05",
+    "time": "2026-10-01T08:32:44",
+    "customer": {
+      "name": "Customer 1",
+      "country": "MX",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 33,
+    "part": "PT-00033",
+    "size": 12.3747,
+    "ok": true,
+    "date": "2026-10-06",
+    "time": "2026-10-01T09:33:51",
+    "customer": {
+      "name": "Customer 2",
+      "country": "ES",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 34,
+    "part": "PT-00034",
+    "size": 11.8414,
+    "ok": true,
+    "date": "2026-11-07",
+    "time": "2026-10-01T10:34:58",
+    "customer": {
+      "name": "Customer 3",
+      "country": "MX",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 35,
+    "part": "PT-00035",
+    "ok": true,
+    "date": "2026-12-08",
+    "time": "2026-10-01T11:35:05",
+    "customer": {
+      "name": "Customer 4",
+      "country": "ES",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 36,
+    "part": "PT-00036",
+    "size": 12.4543,
+    "ok": true,
+    "date": "2026-01-09",
+    "time": "2026-10-01T12:36:12",
+    "customer": {
+      "name": "Customer 5",
+      "country": "FR",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 37,
+    "part": "PT-00037",
+    "size": 12.726,
+    "ok": true,
+    "date": "2026-02-10",
+    "time": "2026-10-01T13:37:19",
+    "customer": {
+      "name": "Customer 6",
+      "country": "FR",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 38,
+    "part": "PT-00038",
+    "size": 12.5245,
+    "ok": true,
+    "date": "2026-03-11",
+    "time": "2026-10-01T14:38:26",
+    "customer": {
+      "name": "Customer 7",
+      "country": "MX",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 39,
+    "part": "PT-00039",
+    "size": 12.8438,
+    "ok": true,
+    "date": "2026-04-12",
+    "time": "2026-10-01T15:39:33",
+    "customer": {
+      "name": "Customer 8",
+      "country": "MX",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 40,
+    "part": "PT-00040",
+    "size": 12.8148,
+    "ok": true,
+    "date": "2026-05-13",
+    "time": "2026-10-01T16:40:40",
+    "customer": {
+      "name": "Customer 9",
+      "country": "FR",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 41,
+    "part": "PT-00041",
+    "size": 12.6608,
+    "ok": true,
+    "date": "2026-06-14",
+    "time": "2026-10-01T17:41:47",
+    "customer": {
+      "name": "Customer 10",
+      "country": "ES",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 42,
+    "part": "PT-00042",
+    "ok": true,
+    "date": "2026-07-15",
+    "time": "2026-10-01T18:42:54",
+    "customer": {
+      "name": "Customer 11",
+      "country": "MX",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 43,
+    "part": "PT-00043",
+    "size": 12.4927,
+    "ok": true,
+    "date": "2026-08-16",
+    "time": "2026-10-01T19:43:01",
+    "customer": {
+      "name": "Customer 12",
+      "country": "MX",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 44,
+    "part": "PT-00044",
+    "size": 12.4284,
+    "ok": true,
+    "date": "2026-09-17",
+    "time": "2026-10-01T20:44:08",
+    "customer": {
+      "name": "Customer 13",
+      "country": "ES",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 45,
+    "part": "PT-00045",
+    "size": 12.6098,
+    "ok": true,
+    "date": "2026-10-18",
+    "time": "2026-10-01T21:45:15",
+    "customer": {
+      "name": "Customer 14",
+      "country": "MX",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 46,
+    "part": "PT-00046",
+    "size": 12.8792,
+    "ok": true,
+    "date": "2026-11-19",
+    "time": "2026-10-01T22:46:22",
+    "customer": {
+      "name": "Customer 15",
+      "country": "ES",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 47,
+    "part": "PT-00047",
+    "size": 12.1751,
+    "ok": true,
+    "date": "2026-12-20",
+    "time": "2026-10-01T23:47:29",
+    "customer": {
+      "name": "Customer 16",
+      "country": "MX",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 48,
+    "part": "PT-00048",
+    "size": 12.305,
+    "ok": true,
+    "date": "2026-01-21",
+    "time": "2026-10-01T00:48:36",
+    "customer": {
+      "name": "Customer 17",
+      "country": "ES",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 49,
+    "part": "PT-00049",
+    "ok": true,
+    "date": "2026-02-22",
+    "time": "2026-10-01T01:49:43",
+    "customer": {
+      "name": "Customer 18",
+      "country": "ES",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 50,
+    "part": "PT-00050",
+    "size": 12.7496,
+    "ok": true,
+    "date": "2026-03-23",
+    "time": "2026-10-01T02:50:50",
+    "customer": {
+      "name": "Customer 19",
+      "country": "MX",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ",
+    "extra": 100
+  },
+  {
+    "id": 51,
+    "part": "PT-00051",
+    "size": 12.7524,
+    "ok": true,
+    "date": "2026-04-24",
+    "time": "2026-10-01T03:51:57",
+    "customer": {
+      "name": "Customer 20",
+      "country": "MX",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 52,
+    "part": "PT-00052",
+    "size": 12.1766,
+    "ok": true,
+    "date": "2026-05-25",
+    "time": "2026-10-01T04:52:04",
+    "customer": {
+      "name": "Customer 21",
+      "country": "ES",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 53,
+    "part": "PT-00053",
+    "size": 12.7867,
+    "ok": true,
+    "date": "2026-06-26",
+    "time": "2026-10-01T05:53:11",
+    "customer": {
+      "name": "Customer 22",
+      "country": "MX",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 54,
+    "part": "PT-00054",
+    "size": 12.7201,
+    "ok": true,
+    "date": "2026-07-27",
+    "time": "2026-10-01T06:54:18",
+    "customer": {
+      "name": "Customer 23",
+      "country": "ES",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 55,
+    "part": "PT-00055",
+    "size": 12.7264,
+    "ok": true,
+    "date": "2026-08-28",
+    "time": "2026-10-01T07:55:25",
+    "customer": {
+      "name": "Customer 24",
+      "country": "ES",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 56,
+    "part": "PT-00056",
+    "ok": true,
+    "date": "2026-09-01",
+    "time": "2026-10-01T08:56:32",
+    "customer": {
+      "name": "Customer 25",
+      "country": "FR",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 57,
+    "part": "PT-00057",
+    "size": 12.5003,
+    "ok": true,
+    "date": "2026-10-02",
+    "time": "2026-10-01T09:57:39",
+    "customer": {
+      "name": "Customer 26",
+      "country": "ES",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 58,
+    "part": "PT-00058",
+    "size": 12.5014,
+    "ok": true,
+    "date": "2026-11-03",
+    "time": "2026-10-01T10:58:46",
+    "customer": {
+      "name": "Customer 27",
+      "country": "FR",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 59,
+    "part": "PT-00059",
+    "size": 12.6442,
+    "ok": true,
+    "date": "2026-12-04",
+    "time": "2026-10-01T11:59:53",
+    "customer": {
+      "name": "Customer 28",
+      "country": "MX",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 60,
+    "part": "PT-00060",
+    "size": 12.9478,
+    "ok": true,
+    "date": "2026-01-05",
+    "time": "2026-10-01T12:00:00",
+    "customer": {
+      "name": "Customer 29",
+      "country": "ES",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 61,
+    "part": "PT-00061",
+    "size": 12.3275,
+    "ok": true,
+    "date": "2026-02-06",
+    "time": "2026-10-01T13:01:07",
+    "customer": {
+      "name": "Customer 30",
+      "country": "MX",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 62,
+    "part": "PT-00062",
+    "size": 12.6555,
+    "ok": true,
+    "date": "2026-03-07",
+    "time": "2026-10-01T14:02:14",
+    "customer": {
+      "name": "Customer 0",
+      "country": "MX",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 63,
+    "part": "PT-00063",
+    "ok": true,
+    "date": "2026-04-08",
+    "time": "2026-10-01T15:03:21",
+    "customer": {
+      "name": "Customer 1",
+      "country": "ES",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 64,
+    "part": "PT-00064",
+    "size": 12.9093,
+    "ok": true,
+    "date": "2026-05-09",
+    "time": "2026-10-01T16:04:28",
+    "customer": {
+      "name": "Customer 2",
+      "country": "ES",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 65,
+    "part": "PT-00065",
+    "size": 12.4015,
+    "ok": true,
+    "date": "2026-06-10",
+    "time": "2026-10-01T17:05:35",
+    "customer": {
+      "name": "Customer 3",
+      "country": "MX",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 66,
+    "part": "PT-00066",
+    "size": 12.7057,
+    "ok": true,
+    "date": "2026-07-11",
+    "time": "2026-10-01T18:06:42",
+    "customer": {
+      "name": "Customer 4",
+      "country": "MX",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 67,
+    "part": "PT-00067",
+    "size": 12.6483,
+    "ok": true,
+    "date": "2026-08-12",
+    "time": "2026-10-01T19:07:49",
+    "customer": {
+      "name": "Customer 5",
+      "country": "MX",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 68,
+    "part": "PT-00068",
+    "size": 12.5036,
+    "ok": true,
+    "date": "2026-09-13",
+    "time": "2026-10-01T20:08:56",
+    "customer": {
+      "name": "Customer 6",
+      "country": "ES",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 69,
+    "part": "PT-00069",
+    "size": 12.4861,
+    "ok": true,
+    "date": "2026-10-14",
+    "time": "2026-10-01T21:09:03",
+    "customer": {
+      "name": "Customer 7",
+      "country": "ES",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 70,
+    "part": "PT-00070",
+    "ok": true,
+    "date": "2026-11-15",
+    "time": "2026-10-01T22:10:10",
+    "customer": {
+      "name": "Customer 8",
+      "country": "MX",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 71,
+    "part": "PT-00071",
+    "size": 12.0092,
+    "ok": true,
+    "date": "2026-12-16",
+    "time": "2026-10-01T23:11:17",
+    "customer": {
+      "name": "Customer 9",
+      "country": "MX",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 72,
+    "part": "PT-00072",
+    "size": 12.9543,
+    "ok": true,
+    "date": "2026-01-17",
+    "time": "2026-10-01T00:12:24",
+    "customer": {
+      "name": "Customer 10",
+      "country": "MX",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 73,
+    "part": "PT-00073",
+    "size": 12.3852,
+    "ok": true,
+    "date": "2026-02-18",
+    "time": "2026-10-01T01:13:31",
+    "customer": {
+      "name": "Customer 11",
+      "country": "FR",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 74,
+    "part": "PT-00074",
+    "size": 12.4257,
+    "ok": true,
+    "date": "2026-03-19",
+    "time": "2026-10-01T02:14:38",
+    "customer": {
+      "name": "Customer 12",
+      "country": "ES",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 75,
+    "part": "PT-00075",
+    "size": 12.4015,
+    "ok": true,
+    "date": "2026-04-20",
+    "time": "2026-10-01T03:15:45",
+    "customer": {
+      "name": "Customer 13",
+      "country": "MX",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 76,
+    "part": "PT-00076",
+    "size": 12.0376,
+    "ok": true,
+    "date": "2026-05-21",
+    "time": "2026-10-01T04:16:52",
+    "customer": {
+      "name": "Customer 14",
+      "country": "ES",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 77,
+    "part": "PT-00077",
+    "ok": true,
+    "date": "2026-06-22",
+    "time": "2026-10-01T05:17:59",
+    "customer": {
+      "name": "Customer 15",
+      "country": "MX",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 78,
+    "part": "PT-00078",
+    "size": 12.7491,
+    "ok": true,
+    "date": "2026-07-23",
+    "time": "2026-10-01T06:18:06",
+    "customer": {
+      "name": "Customer 16",
+      "country": "MX",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 79,
+    "part": "PT-00079",
+    "size": 12.5106,
+    "ok": true,
+    "date": "2026-08-24",
+    "time": "2026-10-01T07:19:13",
+    "customer": {
+      "name": "Customer 17",
+      "country": "MX",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 80,
+    "part": "PT-00080",
+    "size": 12.2899,
+    "ok": true,
+    "date": "2026-09-25",
+    "time": "2026-10-01T08:20:20",
+    "customer": {
+      "name": "Customer 18",
+      "country": "MX",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 81,
+    "part": "PT-00081",
+    "size": 13.0143,
+    "ok": true,
+    "date": "2026-10-26",
+    "time": "2026-10-01T09:21:27",
+    "customer": {
+      "name": "Customer 19",
+      "country": "ES",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 82,
+    "part": "PT-00082",
+    "size": 12.8248,
+    "ok": true,
+    "date": "2026-11-27",
+    "time": "2026-10-01T10:22:34",
+    "customer": {
+      "name": "Customer 20",
+      "country": "MX",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 83,
+    "part": "PT-00083",
+    "size": 12.7653,
+    "ok": true,
+    "date": "2026-12-28",
+    "time": "2026-10-01T11:23:41",
+    "customer": {
+      "name": "Customer 21",
+      "country": "FR",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 84,
+    "part": "PT-00084",
+    "ok": true,
+    "date": "2026-01-01",
+    "time": "2026-10-01T12:24:48",
+    "customer": {
+      "name": "Customer 22",
+      "country": "MX",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 85,
+    "part": "PT-00085",
+    "size": 12.64,
+    "ok": true,
+    "date": "2026-02-02",
+    "time": "2026-10-01T13:25:55",
+    "customer": {
+      "name": "Customer 23",
+      "country": "FR",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 86,
+    "part": "PT-00086",
+    "size": 12.5615,
+    "ok": true,
+    "date": "2026-03-03",
+    "time": "2026-10-01T14:26:02",
+    "customer": {
+      "name": "Customer 24",
+      "country": "ES",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 87,
+    "part": "PT-00087",
+    "size": 12.5762,
+    "ok": true,
+    "date": "2026-04-04",
+    "time": "2026-10-01T15:27:09",
+    "customer": {
+      "name": "Customer 25",
+      "country": "FR",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 88,
+    "part": "PT-00088",
+    "size": 12.8627,
+    "ok": true,
+    "date": "2026-05-05",
+    "time": "2026-10-01T16:28:16",
+    "customer": {
+      "name": "Customer 26",
+      "country": "MX",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 89,
+    "part": "PT-00089",
+    "size": 12.1745,
+    "ok": true,
+    "date": "2026-06-06",
+    "time": "2026-10-01T17:29:23",
+    "customer": {
+      "name": "Customer 27",
+      "country": "MX",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 90,
+    "part": "PT-00090",
+    "size": 12.2895,
+    "ok": true,
+    "date": "2026-07-07",
+    "time": "2026-10-01T18:30:30",
+    "customer": {
+      "name": "Customer 28",
+      "country": "ES",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 91,
+    "part": "PT-00091",
+    "ok": true,
+    "date": "2026-08-08",
+    "time": "2026-10-01T19:31:37",
+    "customer": {
+      "name": "Customer 29",
+      "country": "ES",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 92,
+    "part": "PT-00092",
+    "size": 12.9618,
+    "ok": true,
+    "date": "2026-09-09",
+    "time": "2026-10-01T20:32:44",
+    "customer": {
+      "name": "Customer 30",
+      "country": "MX",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 93,
+    "part": "PT-00093",
+    "size": 11.7635,
+    "ok": false,
+    "date": "2026-10-10",
+    "time": "2026-10-01T21:33:51",
+    "customer": {
+      "name": "Customer 0",
+      "country": "ES",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 94,
+    "part": "PT-00094",
+    "size": 12.7738,
+    "ok": true,
+    "date": "2026-11-11",
+    "time": "2026-10-01T22:34:58",
+    "customer": {
+      "name": "Customer 1",
+      "country": "FR",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 95,
+    "part": "PT-00095",
+    "size": 12.6522,
+    "ok": true,
+    "date": "2026-12-12",
+    "time": "2026-10-01T23:35:05",
+    "customer": {
+      "name": "Customer 2",
+      "country": "MX",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 96,
+    "part": "PT-00096",
+    "size": 12.1255,
+    "ok": true,
+    "date": "2026-01-13",
+    "time": "2026-10-01T00:36:12",
+    "customer": {
+      "name": "Customer 3",
+      "country": "ES",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 97,
+    "part": "PT-00000",
+    "size": 12.8511,
+    "ok": true,
+    "date": "2026-02-14",
+    "time": "2026-10-01T01:37:19",
+    "customer": {
+      "name": "Customer 4",
+      "country": "FR",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 98,
+    "part": "PT-00001",
+    "ok": true,
+    "date": "2026-03-15",
+    "time": "2026-10-01T02:38:26",
+    "customer": {
+      "name": "Customer 5",
+      "country": "MX",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 99,
+    "part": "PT-00002",
+    "size": 12.5481,
+    "ok": true,
+    "date": "2026-04-16",
+    "time": "2026-10-01T03:39:33",
+    "customer": {
+      "name": "Customer 6",
+      "country": "FR",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 100,
+    "part": "PT-00003",
+    "size": 12.5594,
+    "ok": true,
+    "date": "2026-05-17",
+    "time": "2026-10-01T04:40:40",
+    "customer": {
+      "name": "Customer 7",
+      "country": "FR",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ",
+    "extra": 200
+  },
+  {
+    "id": 101,
+    "part": "PT-00004",
+    "size": 12.4551,
+    "ok": true,
+    "date": "2026-06-18",
+    "time": "2026-10-01T05:41:47",
+    "customer": {
+      "name": "Customer 8",
+      "country": "MX",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 102,
+    "part": "PT-00005",
+    "size": 12.2622,
+    "ok": true,
+    "date": "2026-07-19",
+    "time": "2026-10-01T06:42:54",
+    "customer": {
+      "name": "Customer 9",
+      "country": "MX",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 103,
+    "part": "PT-00006",
+    "size": 12.7361,
+    "ok": true,
+    "date": "2026-08-20",
+    "time": "2026-10-01T07:43:01",
+    "customer": {
+      "name": "Customer 10",
+      "country": "FR",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 104,
+    "part": "PT-00007",
+    "size": 12.8777,
+    "ok": true,
+    "date": "2026-09-21",
+    "time": "2026-10-01T08:44:08",
+    "customer": {
+      "name": "Customer 11",
+      "country": "ES",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 105,
+    "part": "PT-00008",
+    "ok": true,
+    "date": "2026-10-22",
+    "time": "2026-10-01T09:45:15",
+    "customer": {
+      "name": "Customer 12",
+      "country": "FR",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 106,
+    "part": "PT-00009",
+    "size": 12.9785,
+    "ok": true,
+    "date": "2026-11-23",
+    "time": "2026-10-01T10:46:22",
+    "customer": {
+      "name": "Customer 13",
+      "country": "ES",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 107,
+    "part": "PT-00010",
+    "size": 12.6344,
+    "ok": true,
+    "date": "2026-12-24",
+    "time": "2026-10-01T11:47:29",
+    "customer": {
+      "name": "Customer 14",
+      "country": "FR",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 108,
+    "part": "PT-00011",
+    "size": 12.5237,
+    "ok": true,
+    "date": "2026-01-25",
+    "time": "2026-10-01T12:48:36",
+    "customer": {
+      "name": "Customer 15",
+      "country": "MX",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 109,
+    "part": "PT-00012",
+    "size": 11.832,
+    "ok": false,
+    "date": "2026-02-26",
+    "time": "2026-10-01T13:49:43",
+    "customer": {
+      "name": "Customer 16",
+      "country": "MX",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 110,
+    "part": "PT-00013",
+    "size": 12.8717,
+    "ok": true,
+    "date": "2026-03-27",
+    "time": "2026-10-01T14:50:50",
+    "customer": {
+      "name": "Customer 17",
+      "country": "ES",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 111,
+    "part": "PT-00014",
+    "size": 12.7969,
+    "ok": true,
+    "date": "2026-04-28",
+    "time": "2026-10-01T15:51:57",
+    "customer": {
+      "name": "Customer 18",
+      "country": "ES",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 112,
+    "part": "PT-00015",
+    "ok": true,
+    "date": "2026-05-01",
+    "time": "2026-10-01T16:52:04",
+    "customer": {
+      "name": "Customer 19",
+      "country": "MX",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 113,
+    "part": "PT-00016",
+    "size": 12.353,
+    "ok": true,
+    "date": "2026-06-02",
+    "time": "2026-10-01T17:53:11",
+    "customer": {
+      "name": "Customer 20",
+      "country": "FR",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 114,
+    "part": "PT-00017",
+    "size": 12.3486,
+    "ok": true,
+    "date": "2026-07-03",
+    "time": "2026-10-01T18:54:18",
+    "customer": {
+      "name": "Customer 21",
+      "country": "MX",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 115,
+    "part": "PT-00018",
+    "size": 12.9349,
+    "ok": true,
+    "date": "2026-08-04",
+    "time": "2026-10-01T19:55:25",
+    "customer": {
+      "name": "Customer 22",
+      "country": "ES",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 116,
+    "part": "PT-00019",
+    "size": 11.9908,
+    "ok": true,
+    "date": "2026-09-05",
+    "time": "2026-10-01T20:56:32",
+    "customer": {
+      "name": "Customer 23",
+      "country": "FR",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 117,
+    "part": "PT-00020",
+    "size": 12.6281,
+    "ok": true,
+    "date": "2026-10-06",
+    "time": "2026-10-01T21:57:39",
+    "customer": {
+      "name": "Customer 24",
+      "country": "MX",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 118,
+    "part": "PT-00021",
+    "size": 12.5019,
+    "ok": false,
+    "date": "2026-11-07",
+    "time": "2026-10-01T22:58:46",
+    "customer": {
+      "name": "Customer 25",
+      "country": "FR",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 119,
+    "part": "PT-00022",
+    "ok": true,
+    "date": "2026-12-08",
+    "time": "2026-10-01T23:59:53",
+    "customer": {
+      "name": "Customer 26",
+      "country": "MX",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 120,
+    "part": "PT-00023",
+    "size": 13.1173,
+    "ok": true,
+    "date": "2026-01-09",
+    "time": "2026-10-01T00:00:00",
+    "customer": {
+      "name": "Customer 27",
+      "country": "ES",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 121,
+    "part": "PT-00024",
+    "size": 12.423,
+    "ok": true,
+    "date": "2026-02-10",
+    "time": "2026-10-01T01:01:07",
+    "customer": {
+      "name": "Customer 28",
+      "country": "MX",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 122,
+    "part": "PT-00025",
+    "size": 12.7897,
+    "ok": true,
+    "date": "2026-03-11",
+    "time": "2026-10-01T02:02:14",
+    "customer": {
+      "name": "Customer 29",
+      "country": "ES",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 123,
+    "part": "PT-00026",
+    "size": 12.7007,
+    "ok": true,
+    "date": "2026-04-12",
+    "time": "2026-10-01T03:03:21",
+    "customer": {
+      "name": "Customer 30",
+      "country": "MX",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 124,
+    "part": "PT-00027",
+    "size": 12.1382,
+    "ok": true,
+    "date": "2026-05-13",
+    "time": "2026-10-01T04:04:28",
+    "customer": {
+      "name": "Customer 0",
+      "country": "FR",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 125,
+    "part": "PT-00028",
+    "size": 12.7084,
+    "ok": true,
+    "date": "2026-06-14",
+    "time": "2026-10-01T05:05:35",
+    "customer": {
+      "name": "Customer 1",
+      "country": "FR",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 126,
+    "part": "PT-00029",
+    "ok": true,
+    "date": "2026-07-15",
+    "time": "2026-10-01T06:06:42",
+    "customer": {
+      "name": "Customer 2",
+      "country": "ES",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 127,
+    "part": "PT-00030",
+    "size": 11.9791,
+    "ok": true,
+    "date": "2026-08-16",
+    "time": "2026-10-01T07:07:49",
+    "customer": {
+      "name": "Customer 3",
+      "country": "ES",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 128,
+    "part": "PT-00031",
+    "size": 12.4941,
+    "ok": true,
+    "date": "2026-09-17",
+    "time": "2026-10-01T08:08:56",
+    "customer": {
+      "name": "Customer 4",
+      "country": "MX",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 129,
+    "part": "PT-00032",
+    "size": 12.7329,
+    "ok": true,
+    "date": "2026-10-18",
+    "time": "2026-10-01T09:09:03",
+    "customer": {
+      "name": "Customer 5",
+      "country": "MX",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 130,
+    "part": "PT-00033",
+    "size": 12.3719,
+    "ok": true,
+    "date": "2026-11-19",
+    "time": "2026-10-01T10:10:10",
+    "customer": {
+      "name": "Customer 6",
+      "country": "MX",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 131,
+    "part": "PT-00034",
+    "size": 13.142,
+    "ok": true,
+    "date": "2026-12-20",
+    "time": "2026-10-01T11:11:17",
+    "customer": {
+      "name": "Customer 7",
+      "country": "MX",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 132,
+    "part": "PT-00035",
+    "size": 12.2826,
+    "ok": true,
+    "date": "2026-01-21",
+    "time": "2026-10-01T12:12:24",
+    "customer": {
+      "name": "Customer 8",
+      "country": "FR",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 133,
+    "part": "PT-00036",
+    "ok": true,
+    "date": "2026-02-22",
+    "time": "2026-10-01T13:13:31",
+    "customer": {
+      "name": "Customer 9",
+      "country": "MX",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 134,
+    "part": "PT-00037",
+    "size": 12.7725,
+    "ok": true,
+    "date": "2026-03-23",
+    "time": "2026-10-01T14:14:38",
+    "customer": {
+      "name": "Customer 10",
+      "country": "ES",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 135,
+    "part": "PT-00038",
+    "size": 12.7041,
+    "ok": true,
+    "date": "2026-04-24",
+    "time": "2026-10-01T15:15:45",
+    "customer": {
+      "name": "Customer 11",
+      "country": "MX",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 136,
+    "part": "PT-00039",
+    "size": 12.6563,
+    "ok": true,
+    "date": "2026-05-25",
+    "time": "2026-10-01T16:16:52",
+    "customer": {
+      "name": "Customer 12",
+      "country": "FR",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 137,
+    "part": "PT-00040",
+    "size": 12.3474,
+    "ok": true,
+    "date": "2026-06-26",
+    "time": "2026-10-01T17:17:59",
+    "customer": {
+      "name": "Customer 13",
+      "country": "FR",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 138,
+    "part": "PT-00041",
+    "size": 12.5407,
+    "ok": true,
+    "date": "2026-07-27",
+    "time": "2026-10-01T18:18:06",
+    "customer": {
+      "name": "Customer 14",
+      "country": "MX",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 139,
+    "part": "PT-00042",
+    "size": 12.6113,
+    "ok": true,
+    "date": "2026-08-28",
+    "time": "2026-10-01T19:19:13",
+    "customer": {
+      "name": "Customer 15",
+      "country": "ES",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 140,
+    "part": "PT-00043",
+    "ok": false,
+    "date": "2026-09-01",
+    "time": "2026-10-01T20:20:20",
+    "customer": {
+      "name": "Customer 16",
+      "country": "FR",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 141,
+    "part": "PT-00044",
+    "size": 12.0619,
+    "ok": true,
+    "date": "2026-10-02",
+    "time": "2026-10-01T21:21:27",
+    "customer": {
+      "name": "Customer 17",
+      "country": "FR",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 142,
+    "part": "PT-00045",
+    "size": 12.4514,
+    "ok": true,
+    "date": "2026-11-03",
+    "time": "2026-10-01T22:22:34",
+    "customer": {
+      "name": "Customer 18",
+      "country": "MX",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 143,
+    "part": "PT-00046",
+    "size": 12.5672,
+    "ok": true,
+    "date": "2026-12-04",
+    "time": "2026-10-01T23:23:41",
+    "customer": {
+      "name": "Customer 19",
+      "country": "ES",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 144,
+    "part": "PT-00047",
+    "size": 12.973,
+    "ok": true,
+    "date": "2026-01-05",
+    "time": "2026-10-01T00:24:48",
+    "customer": {
+      "name": "Customer 20",
+      "country": "MX",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 145,
+    "part": "PT-00048",
+    "size": 12.6159,
+    "ok": true,
+    "date": "2026-02-06",
+    "time": "2026-10-01T01:25:55",
+    "customer": {
+      "name": "Customer 21",
+      "country": "ES",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 146,
+    "part": "PT-00049",
+    "size": 12.4164,
+    "ok": true,
+    "date": "2026-03-07",
+    "time": "2026-10-01T02:26:02",
+    "customer": {
+      "name": "Customer 22",
+      "country": "MX",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 147,
+    "part": "PT-00050",
+    "ok": false,
+    "date": "2026-04-08",
+    "time": "2026-10-01T03:27:09",
+    "customer": {
+      "name": "Customer 23",
+      "country": "ES",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 148,
+    "part": "PT-00051",
+    "size": 12.3964,
+    "ok": true,
+    "date": "2026-05-09",
+    "time": "2026-10-01T04:28:16",
+    "customer": {
+      "name": "Customer 24",
+      "country": "ES",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 149,
+    "part": "PT-00052",
+    "size": 12.4678,
+    "ok": true,
+    "date": "2026-06-10",
+    "time": "2026-10-01T05:29:23",
+    "customer": {
+      "name": "Customer 25",
+      "country": "MX",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 150,
+    "part": "PT-00053",
+    "size": 12.4159,
+    "ok": true,
+    "date": "2026-07-11",
+    "time": "2026-10-01T06:30:30",
+    "customer": {
+      "name": "Customer 26",
+      "country": "FR",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ",
+    "extra": 300
+  },
+  {
+    "id": 151,
+    "part": "PT-00054",
+    "size": 12.3994,
+    "ok": true,
+    "date": "2026-08-12",
+    "time": "2026-10-01T07:31:37",
+    "customer": {
+      "name": "Customer 27",
+      "country": "ES",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 152,
+    "part": "PT-00055",
+    "size": 12.3459,
+    "ok": true,
+    "date": "2026-09-13",
+    "time": "2026-10-01T08:32:44",
+    "customer": {
+      "name": "Customer 28",
+      "country": "FR",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 153,
+    "part": "PT-00056",
+    "size": 12.2286,
+    "ok": true,
+    "date": "2026-10-14",
+    "time": "2026-10-01T09:33:51",
+    "customer": {
+      "name": "Customer 29",
+      "country": "ES",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 154,
+    "part": "PT-00057",
+    "ok": true,
+    "date": "2026-11-15",
+    "time": "2026-10-01T10:34:58",
+    "customer": {
+      "name": "Customer 30",
+      "country": "ES",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 155,
+    "part": "PT-00058",
+    "size": 12.5296,
+    "ok": true,
+    "date": "2026-12-16",
+    "time": "2026-10-01T11:35:05",
+    "customer": {
+      "name": "Customer 0",
+      "country": "ES",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 156,
+    "part": "PT-00059",
+    "size": 12.4721,
+    "ok": false,
+    "date": "2026-01-17",
+    "time": "2026-10-01T12:36:12",
+    "customer": {
+      "name": "Customer 1",
+      "country": "MX",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 157,
+    "part": "PT-00060",
+    "size": 12.2995,
+    "ok": true,
+    "date": "2026-02-18",
+    "time": "2026-10-01T13:37:19",
+    "customer": {
+      "name": "Customer 2",
+      "country": "MX",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 158,
+    "part": "PT-00061",
+    "size": 11.9835,
+    "ok": true,
+    "date": "2026-03-19",
+    "time": "2026-10-01T14:38:26",
+    "customer": {
+      "name": "Customer 3",
+      "country": "MX",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 159,
+    "part": "PT-00062",
+    "size": 12.8453,
+    "ok": true,
+    "date": "2026-04-20",
+    "time": "2026-10-01T15:39:33",
+    "customer": {
+      "name": "Customer 4",
+      "country": "MX",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 160,
+    "part": "PT-00063",
+    "size": 12.0931,
+    "ok": true,
+    "date": "2026-05-21",
+    "time": "2026-10-01T16:40:40",
+    "customer": {
+      "name": "Customer 5",
+      "country": "MX",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 161,
+    "part": "PT-00064",
+    "ok": true,
+    "date": "2026-06-22",
+    "time": "2026-10-01T17:41:47",
+    "customer": {
+      "name": "Customer 6",
+      "country": "ES",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 162,
+    "part": "PT-00065",
+    "size": 12.4853,
+    "ok": true,
+    "date": "2026-07-23",
+    "time": "2026-10-01T18:42:54",
+    "customer": {
+      "name": "Customer 7",
+      "country": "MX",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 163,
+    "part": "PT-00066",
+    "size": 12.3165,
+    "ok": true,
+    "date": "2026-08-24",
+    "time": "2026-10-01T19:43:01",
+    "customer": {
+      "name": "Customer 8",
+      "country": "MX",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 164,
+    "part": "PT-00067",
+    "size": 12.7701,
+    "ok": true,
+    "date": "2026-09-25",
+    "time": "2026-10-01T20:44:08",
+    "customer": {
+      "name": "Customer 9",
+      "country": "MX",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 165,
+    "part": "PT-00068",
+    "size": 12.72,
+    "ok": true,
+    "date": "2026-10-26",
+    "time": "2026-10-01T21:45:15",
+    "customer": {
+      "name": "Customer 10",
+      "country": "MX",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 166,
+    "part": "PT-00069",
+    "size": 12.8404,
+    "ok": true,
+    "date": "2026-11-27",
+    "time": "2026-10-01T22:46:22",
+    "customer": {
+      "name": "Customer 11",
+      "country": "FR",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 167,
+    "part": "PT-00070",
+    "size": 12.4473,
+    "ok": true,
+    "date": "2026-12-28",
+    "time": "2026-10-01T23:47:29",
+    "customer": {
+      "name": "Customer 12",
+      "country": "FR",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 168,
+    "part": "PT-00071",
+    "ok": true,
+    "date": "2026-01-01",
+    "time": "2026-10-01T00:48:36",
+    "customer": {
+      "name": "Customer 13",
+      "country": "MX",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 169,
+    "part": "PT-00072",
+    "size": 12.116,
+    "ok": true,
+    "date": "2026-02-02",
+    "time": "2026-10-01T01:49:43",
+    "customer": {
+      "name": "Customer 14",
+      "country": "FR",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 170,
+    "part": "PT-00073",
+    "size": 12.821,
+    "ok": true,
+    "date": "2026-03-03",
+    "time": "2026-10-01T02:50:50",
+    "customer": {
+      "name": "Customer 15",
+      "country": "MX",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 171,
+    "part": "PT-00074",
+    "size": 12.0362,
+    "ok": false,
+    "date": "2026-04-04",
+    "time": "2026-10-01T03:51:57",
+    "customer": {
+      "name": "Customer 16",
+      "country": "FR",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 172,
+    "part": "PT-00075",
+    "size": 12.6569,
+    "ok": true,
+    "date": "2026-05-05",
+    "time": "2026-10-01T04:52:04",
+    "customer": {
+      "name": "Customer 17",
+      "country": "FR",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 173,
+    "part": "PT-00076",
+    "size": 12.7356,
+    "ok": true,
+    "date": "2026-06-06",
+    "time": "2026-10-01T05:53:11",
+    "customer": {
+      "name": "Customer 18",
+      "country": "MX",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 174,
+    "part": "PT-00077",
+    "size": 12.8729,
+    "ok": true,
+    "date": "2026-07-07",
+    "time": "2026-10-01T06:54:18",
+    "customer": {
+      "name": "Customer 19",
+      "country": "MX",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 175,
+    "part": "PT-00078",
+    "ok": true,
+    "date": "2026-08-08",
+    "time": "2026-10-01T07:55:25",
+    "customer": {
+      "name": "Customer 20",
+      "country": "ES",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 176,
+    "part": "PT-00079",
+    "size": 12.7998,
+    "ok": true,
+    "date": "2026-09-09",
+    "time": "2026-10-01T08:56:32",
+    "customer": {
+      "name": "Customer 21",
+      "country": "FR",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 177,
+    "part": "PT-00080",
+    "size": 12.7736,
+    "ok": true,
+    "date": "2026-10-10",
+    "time": "2026-10-01T09:57:39",
+    "customer": {
+      "name": "Customer 22",
+      "country": "FR",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 178,
+    "part": "PT-00081",
+    "size": 12.1524,
+    "ok": true,
+    "date": "2026-11-11",
+    "time": "2026-10-01T10:58:46",
+    "customer": {
+      "name": "Customer 23",
+      "country": "FR",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 179,
+    "part": "PT-00082",
+    "size": 12.6909,
+    "ok": true,
+    "date": "2026-12-12",
+    "time": "2026-10-01T11:59:53",
+    "customer": {
+      "name": "Customer 24",
+      "country": "FR",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 180,
+    "part": "PT-00083",
+    "size": 12.4396,
+    "ok": true,
+    "date": "2026-01-13",
+    "time": "2026-10-01T12:00:00",
+    "customer": {
+      "name": "Customer 25",
+      "country": "ES",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 181,
+    "part": "PT-00084",
+    "size": 12.5246,
+    "ok": true,
+    "date": "2026-02-14",
+    "time": "2026-10-01T13:01:07",
+    "customer": {
+      "name": "Customer 26",
+      "country": "ES",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 182,
+    "part": "PT-00085",
+    "ok": true,
+    "date": "2026-03-15",
+    "time": "2026-10-01T14:02:14",
+    "customer": {
+      "name": "Customer 27",
+      "country": "MX",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 183,
+    "part": "PT-00086",
+    "size": 11.9799,
+    "ok": true,
+    "date": "2026-04-16",
+    "time": "2026-10-01T15:03:21",
+    "customer": {
+      "name": "Customer 28",
+      "country": "ES",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 184,
+    "part": "PT-00087",
+    "size": 12.623,
+    "ok": true,
+    "date": "2026-05-17",
+    "time": "2026-10-01T16:04:28",
+    "customer": {
+      "name": "Customer 29",
+      "country": "MX",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 185,
+    "part": "PT-00088",
+    "size": 12.598,
+    "ok": true,
+    "date": "2026-06-18",
+    "time": "2026-10-01T17:05:35",
+    "customer": {
+      "name": "Customer 30",
+      "country": "FR",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 186,
+    "part": "PT-00089",
+    "size": 12.4136,
+    "ok": true,
+    "date": "2026-07-19",
+    "time": "2026-10-01T18:06:42",
+    "customer": {
+      "name": "Customer 0",
+      "country": "MX",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 187,
+    "part": "PT-00090",
+    "size": 12.4945,
+    "ok": true,
+    "date": "2026-08-20",
+    "time": "2026-10-01T19:07:49",
+    "customer": {
+      "name": "Customer 1",
+      "country": "ES",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 188,
+    "part": "PT-00091",
+    "size": 12.562,
+    "ok": true,
+    "date": "2026-09-21",
+    "time": "2026-10-01T20:08:56",
+    "customer": {
+      "name": "Customer 2",
+      "country": "FR",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 189,
+    "part": "PT-00092",
+    "ok": true,
+    "date": "2026-10-22",
+    "time": "2026-10-01T21:09:03",
+    "customer": {
+      "name": "Customer 3",
+      "country": "FR",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 190,
+    "part": "PT-00093",
+    "size": 12.6547,
+    "ok": true,
+    "date": "2026-11-23",
+    "time": "2026-10-01T22:10:10",
+    "customer": {
+      "name": "Customer 4",
+      "country": "FR",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 191,
+    "part": "PT-00094",
+    "size": 12.4507,
+    "ok": true,
+    "date": "2026-12-24",
+    "time": "2026-10-01T23:11:17",
+    "customer": {
+      "name": "Customer 5",
+      "country": "MX",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 192,
+    "part": "PT-00095",
+    "size": 12.794,
+    "ok": true,
+    "date": "2026-01-25",
+    "time": "2026-10-01T00:12:24",
+    "customer": {
+      "name": "Customer 6",
+      "country": "MX",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 193,
+    "part": "PT-00096",
+    "size": 13.2962,
+    "ok": true,
+    "date": "2026-02-26",
+    "time": "2026-10-01T01:13:31",
+    "customer": {
+      "name": "Customer 7",
+      "country": "FR",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 194,
+    "part": "PT-00000",
+    "size": 12.6001,
+    "ok": true,
+    "date": "2026-03-27",
+    "time": "2026-10-01T02:14:38",
+    "customer": {
+      "name": "Customer 8",
+      "country": "ES",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 195,
+    "part": "PT-00001",
+    "size": 12.4533,
+    "ok": true,
+    "date": "2026-04-28",
+    "time": "2026-10-01T03:15:45",
+    "customer": {
+      "name": "Customer 9",
+      "country": "FR",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 196,
+    "part": "PT-00002",
+    "ok": true,
+    "date": "2026-05-01",
+    "time": "2026-10-01T04:16:52",
+    "customer": {
+      "name": "Customer 10",
+      "country": "FR",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 197,
+    "part": "PT-00003",
+    "size": 13.0449,
+    "ok": true,
+    "date": "2026-06-02",
+    "time": "2026-10-01T05:17:59",
+    "customer": {
+      "name": "Customer 11",
+      "country": "ES",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 198,
+    "part": "PT-00004",
+    "size": 12.5607,
+    "ok": true,
+    "date": "2026-07-03",
+    "time": "2026-10-01T06:18:06",
+    "customer": {
+      "name": "Customer 12",
+      "country": "ES",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 199,
+    "part": "PT-00005",
+    "size": 12.7263,
+    "ok": true,
+    "date": "2026-08-04",
+    "time": "2026-10-01T07:19:13",
+    "customer": {
+      "name": "Customer 13",
+      "country": "MX",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 200,
+    "part": "PT-00006",
+    "size": 12.5736,
+    "ok": true,
+    "date": "2026-09-05",
+    "time": "2026-10-01T08:20:20",
+    "customer": {
+      "name": "Customer 14",
+      "country": "FR",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ",
+    "extra": 400
+  },
+  {
+    "id": 201,
+    "part": "PT-00007",
+    "size": 12.6619,
+    "ok": true,
+    "date": "2026-10-06",
+    "time": "2026-10-01T09:21:27",
+    "customer": {
+      "name": "Customer 15",
+      "country": "ES",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 202,
+    "part": "PT-00008",
+    "size": 12.757,
+    "ok": true,
+    "date": "2026-11-07",
+    "time": "2026-10-01T10:22:34",
+    "customer": {
+      "name": "Customer 16",
+      "country": "FR",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 203,
+    "part": "PT-00009",
+    "ok": false,
+    "date": "2026-12-08",
+    "time": "2026-10-01T11:23:41",
+    "customer": {
+      "name": "Customer 17",
+      "country": "ES",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 204,
+    "part": "PT-00010",
+    "size": 12.8221,
+    "ok": true,
+    "date": "2026-01-09",
+    "time": "2026-10-01T12:24:48",
+    "customer": {
+      "name": "Customer 18",
+      "country": "FR",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 205,
+    "part": "PT-00011",
+    "size": 12.4304,
+    "ok": true,
+    "date": "2026-02-10",
+    "time": "2026-10-01T13:25:55",
+    "customer": {
+      "name": "Customer 19",
+      "country": "MX",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 206,
+    "part": "PT-00012",
+    "size": 12.4953,
+    "ok": true,
+    "date": "2026-03-11",
+    "time": "2026-10-01T14:26:02",
+    "customer": {
+      "name": "Customer 20",
+      "country": "FR",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 207,
+    "part": "PT-00013",
+    "size": 12.8716,
+    "ok": true,
+    "date": "2026-04-12",
+    "time": "2026-10-01T15:27:09",
+    "customer": {
+      "name": "Customer 21",
+      "country": "ES",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 208,
+    "part": "PT-00014",
+    "size": 12.2955,
+    "ok": true,
+    "date": "2026-05-13",
+    "time": "2026-10-01T16:28:16",
+    "customer": {
+      "name": "Customer 22",
+      "country": "ES",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 209,
+    "part": "PT-00015",
+    "size": 12.7026,
+    "ok": true,
+    "date": "2026-06-14",
+    "time": "2026-10-01T17:29:23",
+    "customer": {
+      "name": "Customer 23",
+      "country": "ES",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 210,
+    "part": "PT-00016",
+    "ok": true,
+    "date": "2026-07-15",
+    "time": "2026-10-01T18:30:30",
+    "customer": {
+      "name": "Customer 24",
+      "country": "ES",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 211,
+    "part": "PT-00017",
+    "size": 12.9115,
+    "ok": true,
+    "date": "2026-08-16",
+    "time": "2026-10-01T19:31:37",
+    "customer": {
+      "name": "Customer 25",
+      "country": "ES",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 212,
+    "part": "PT-00018",
+    "size": 12.2125,
+    "ok": true,
+    "date": "2026-09-17",
+    "time": "2026-10-01T20:32:44",
+    "customer": {
+      "name": "Customer 26",
+      "country": "FR",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 213,
+    "part": "PT-00019",
+    "size": 13.2251,
+    "ok": true,
+    "date": "2026-10-18",
+    "time": "2026-10-01T21:33:51",
+    "customer": {
+      "name": "Customer 27",
+      "country": "FR",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 214,
+    "part": "PT-00020",
+    "size": 12.5787,
+    "ok": true,
+    "date": "2026-11-19",
+    "time": "2026-10-01T22:34:58",
+    "customer": {
+      "name": "Customer 28",
+      "country": "FR",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 215,
+    "part": "PT-00021",
+    "size": 12.5009,
+    "ok": true,
+    "date": "2026-12-20",
+    "time": "2026-10-01T23:35:05",
+    "customer": {
+      "name": "Customer 29",
+      "country": "ES",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 216,
+    "part": "PT-00022",
+    "size": 11.8644,
+    "ok": true,
+    "date": "2026-01-21",
+    "time": "2026-10-01T00:36:12",
+    "customer": {
+      "name": "Customer 30",
+      "country": "MX",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 217,
+    "part": "PT-00023",
+    "ok": true,
+    "date": "2026-02-22",
+    "time": "2026-10-01T01:37:19",
+    "customer": {
+      "name": "Customer 0",
+      "country": "MX",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 218,
+    "part": "PT-00024",
+    "size": 12.5215,
+    "ok": true,
+    "date": "2026-03-23",
+    "time": "2026-10-01T02:38:26",
+    "customer": {
+      "name": "Customer 1",
+      "country": "MX",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 219,
+    "part": "PT-00025",
+    "size": 12.503,
+    "ok": true,
+    "date": "2026-04-24",
+    "time": "2026-10-01T03:39:33",
+    "customer": {
+      "name": "Customer 2",
+      "country": "FR",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 220,
+    "part": "PT-00026",
+    "size": 12.5639,
+    "ok": true,
+    "date": "2026-05-25",
+    "time": "2026-10-01T04:40:40",
+    "customer": {
+      "name": "Customer 3",
+      "country": "MX",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 221,
+    "part": "PT-00027",
+    "size": 12.8919,
+    "ok": true,
+    "date": "2026-06-26",
+    "time": "2026-10-01T05:41:47",
+    "customer": {
+      "name": "Customer 4",
+      "country": "ES",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 222,
+    "part": "PT-00028",
+    "size": 12.5275,
+    "ok": true,
+    "date": "2026-07-27",
+    "time": "2026-10-01T06:42:54",
+    "customer": {
+      "name": "Customer 5",
+      "country": "FR",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 223,
+    "part": "PT-00029",
+    "size": 12.5425,
+    "ok": true,
+    "date": "2026-08-28",
+    "time": "2026-10-01T07:43:01",
+    "customer": {
+      "name": "Customer 6",
+      "country": "MX",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 224,
+    "part": "PT-00030",
+    "ok": true,
+    "date": "2026-09-01",
+    "time": "2026-10-01T08:44:08",
+    "customer": {
+      "name": "Customer 7",
+      "country": "ES",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 225,
+    "part": "PT-00031",
+    "size": 12.5653,
+    "ok": true,
+    "date": "2026-10-02",
+    "time": "2026-10-01T09:45:15",
+    "customer": {
+      "name": "Customer 8",
+      "country": "ES",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 226,
+    "part": "PT-00032",
+    "size": 12.5998,
+    "ok": true,
+    "date": "2026-11-03",
+    "time": "2026-10-01T10:46:22",
+    "customer": {
+      "name": "Customer 9",
+      "country": "ES",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 227,
+    "part": "PT-00033",
+    "size": 12.4791,
+    "ok": true,
+    "date": "2026-12-04",
+    "time": "2026-10-01T11:47:29",
+    "customer": {
+      "name": "Customer 10",
+      "country": "FR",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 228,
+    "part": "PT-00034",
+    "size": 11.8379,
+    "ok": true,
+    "date": "2026-01-05",
+    "time": "2026-10-01T12:48:36",
+    "customer": {
+      "name": "Customer 11",
+      "country": "MX",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 229,
+    "part": "PT-00035",
+    "size": 12.7443,
+    "ok": true,
+    "date": "2026-02-06",
+    "time": "2026-10-01T13:49:43",
+    "customer": {
+      "name": "Customer 12",
+      "country": "MX",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 230,
+    "part": "PT-00036",
+    "size": 12.8554,
+    "ok": true,
+    "date": "2026-03-07",
+    "time": "2026-10-01T14:50:50",
+    "customer": {
+      "name": "Customer 13",
+      "country": "MX",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 231,
+    "part": "PT-00037",
+    "ok": true,
+    "date": "2026-04-08",
+    "time": "2026-10-01T15:51:57",
+    "customer": {
+      "name": "Customer 14",
+      "country": "MX",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 232,
+    "part": "PT-00038",
+    "size": 12.8785,
+    "ok": true,
+    "date": "2026-05-09",
+    "time": "2026-10-01T16:52:04",
+    "customer": {
+      "name": "Customer 15",
+      "country": "MX",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 233,
+    "part": "PT-00039",
+    "size": 12.5294,
+    "ok": true,
+    "date": "2026-06-10",
+    "time": "2026-10-01T17:53:11",
+    "customer": {
+      "name": "Customer 16",
+      "country": "FR",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 234,
+    "part": "PT-00040",
+    "size": 12.2224,
+    "ok": true,
+    "date": "2026-07-11",
+    "time": "2026-10-01T18:54:18",
+    "customer": {
+      "name": "Customer 17",
+      "country": "FR",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 235,
+    "part": "PT-00041",
+    "size": 12.2759,
+    "ok": true,
+    "date": "2026-08-12",
+    "time": "2026-10-01T19:55:25",
+    "customer": {
+      "name": "Customer 18",
+      "country": "ES",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 236,
+    "part": "PT-00042",
+    "size": 12.8874,
+    "ok": true,
+    "date": "2026-09-13",
+    "time": "2026-10-01T20:56:32",
+    "customer": {
+      "name": "Customer 19",
+      "country": "FR",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 237,
+    "part": "PT-00043",
+    "size": 12.6641,
+    "ok": true,
+    "date": "2026-10-14",
+    "time": "2026-10-01T21:57:39",
+    "customer": {
+      "name": "Customer 20",
+      "country": "FR",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 238,
+    "part": "PT-00044",
+    "ok": true,
+    "date": "2026-11-15",
+    "time": "2026-10-01T22:58:46",
+    "customer": {
+      "name": "Customer 21",
+      "country": "ES",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 239,
+    "part": "PT-00045",
+    "size": 12.4305,
+    "ok": true,
+    "date": "2026-12-16",
+    "time": "2026-10-01T23:59:53",
+    "customer": {
+      "name": "Customer 22",
+      "country": "FR",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 240,
+    "part": "PT-00046",
+    "size": 12.2948,
+    "ok": true,
+    "date": "2026-01-17",
+    "time": "2026-10-01T00:00:00",
+    "customer": {
+      "name": "Customer 23",
+      "country": "MX",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 241,
+    "part": "PT-00047",
+    "size": 12.5632,
+    "ok": true,
+    "date": "2026-02-18",
+    "time": "2026-10-01T01:01:07",
+    "customer": {
+      "name": "Customer 24",
+      "country": "MX",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 242,
+    "part": "PT-00048",
+    "size": 12.2445,
+    "ok": true,
+    "date": "2026-03-19",
+    "time": "2026-10-01T02:02:14",
+    "customer": {
+      "name": "Customer 25",
+      "country": "ES",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 243,
+    "part": "PT-00049",
+    "size": 12.9289,
+    "ok": true,
+    "date": "2026-04-20",
+    "time": "2026-10-01T03:03:21",
+    "customer": {
+      "name": "Customer 26",
+      "country": "ES",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 244,
+    "part": "PT-00050",
+    "size": 12.2027,
+    "ok": true,
+    "date": "2026-05-21",
+    "time": "2026-10-01T04:04:28",
+    "customer": {
+      "name": "Customer 27",
+      "country": "FR",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 245,
+    "part": "PT-00051",
+    "ok": true,
+    "date": "2026-06-22",
+    "time": "2026-10-01T05:05:35",
+    "customer": {
+      "name": "Customer 28",
+      "country": "ES",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 246,
+    "part": "PT-00052",
+    "size": 12.0121,
+    "ok": true,
+    "date": "2026-07-23",
+    "time": "2026-10-01T06:06:42",
+    "customer": {
+      "name": "Customer 29",
+      "country": "FR",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 247,
+    "part": "PT-00053",
+    "size": 11.8949,
+    "ok": false,
+    "date": "2026-08-24",
+    "time": "2026-10-01T07:07:49",
+    "customer": {
+      "name": "Customer 30",
+      "country": "ES",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 248,
+    "part": "PT-00054",
+    "size": 12.9758,
+    "ok": true,
+    "date": "2026-09-25",
+    "time": "2026-10-01T08:08:56",
+    "customer": {
+      "name": "Customer 0",
+      "country": "MX",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 249,
+    "part": "PT-00055",
+    "size": 12.1753,
+    "ok": true,
+    "date": "2026-10-26",
+    "time": "2026-10-01T09:09:03",
+    "customer": {
+      "name": "Customer 1",
+      "country": "ES",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 250,
+    "part": "PT-00056",
+    "size": 12.6062,
+    "ok": true,
+    "date": "2026-11-27",
+    "time": "2026-10-01T10:10:10",
+    "customer": {
+      "name": "Customer 2",
+      "country": "ES",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ",
+    "extra": 500
+  },
+  {
+    "id": 251,
+    "part": "PT-00057",
+    "size": 12.7781,
+    "ok": true,
+    "date": "2026-12-28",
+    "time": "2026-10-01T11:11:17",
+    "customer": {
+      "name": "Customer 3",
+      "country": "FR",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 252,
+    "part": "PT-00058",
+    "ok": true,
+    "date": "2026-01-01",
+    "time": "2026-10-01T12:12:24",
+    "customer": {
+      "name": "Customer 4",
+      "country": "FR",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 253,
+    "part": "PT-00059",
+    "size": 12.0991,
+    "ok": true,
+    "date": "2026-02-02",
+    "time": "2026-10-01T13:13:31",
+    "customer": {
+      "name": "Customer 5",
+      "country": "FR",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 254,
+    "part": "PT-00060",
+    "size": 12.3086,
+    "ok": true,
+    "date": "2026-03-03",
+    "time": "2026-10-01T14:14:38",
+    "customer": {
+      "name": "Customer 6",
+      "country": "FR",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 255,
+    "part": "PT-00061",
+    "size": 11.9396,
+    "ok": true,
+    "date": "2026-04-04",
+    "time": "2026-10-01T15:15:45",
+    "customer": {
+      "name": "Customer 7",
+      "country": "ES",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 256,
+    "part": "PT-00062",
+    "size": 12.5729,
+    "ok": true,
+    "date": "2026-05-05",
+    "time": "2026-10-01T16:16:52",
+    "customer": {
+      "name": "Customer 8",
+      "country": "FR",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 257,
+    "part": "PT-00063",
+    "size": 12.21,
+    "ok": true,
+    "date": "2026-06-06",
+    "time": "2026-10-01T17:17:59",
+    "customer": {
+      "name": "Customer 9",
+      "country": "MX",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 258,
+    "part": "PT-00064",
+    "size": 12.643,
+    "ok": true,
+    "date": "2026-07-07",
+    "time": "2026-10-01T18:18:06",
+    "customer": {
+      "name": "Customer 10",
+      "country": "MX",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 259,
+    "part": "PT-00065",
+    "ok": true,
+    "date": "2026-08-08",
+    "time": "2026-10-01T19:19:13",
+    "customer": {
+      "name": "Customer 11",
+      "country": "MX",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 260,
+    "part": "PT-00066",
+    "size": 12.4771,
+    "ok": true,
+    "date": "2026-09-09",
+    "time": "2026-10-01T20:20:20",
+    "customer": {
+      "name": "Customer 12",
+      "country": "FR",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 261,
+    "part": "PT-00067",
+    "size": 12.4284,
+    "ok": true,
+    "date": "2026-10-10",
+    "time": "2026-10-01T21:21:27",
+    "customer": {
+      "name": "Customer 13",
+      "country": "FR",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 262,
+    "part": "PT-00068",
+    "size": 12.5845,
+    "ok": true,
+    "date": "2026-11-11",
+    "time": "2026-10-01T22:22:34",
+    "customer": {
+      "name": "Customer 14",
+      "country": "ES",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 263,
+    "part": "PT-00069",
+    "size": 12.5384,
+    "ok": true,
+    "date": "2026-12-12",
+    "time": "2026-10-01T23:23:41",
+    "customer": {
+      "name": "Customer 15",
+      "country": "FR",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 264,
+    "part": "PT-00070",
+    "size": 12.586,
+    "ok": true,
+    "date": "2026-01-13",
+    "time": "2026-10-01T00:24:48",
+    "customer": {
+      "name": "Customer 16",
+      "country": "FR",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 265,
+    "part": "PT-00071",
+    "size": 12.4301,
+    "ok": true,
+    "date": "2026-02-14",
+    "time": "2026-10-01T01:25:55",
+    "customer": {
+      "name": "Customer 17",
+      "country": "MX",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 266,
+    "part": "PT-00072",
+    "ok": false,
+    "date": "2026-03-15",
+    "time": "2026-10-01T02:26:02",
+    "customer": {
+      "name": "Customer 18",
+      "country": "FR",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 267,
+    "part": "PT-00073",
+    "size": 12.7021,
+    "ok": true,
+    "date": "2026-04-16",
+    "time": "2026-10-01T03:27:09",
+    "customer": {
+      "name": "Customer 19",
+      "country": "FR",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 268,
+    "part": "PT-00074",
+    "size": 12.2697,
+    "ok": true,
+    "date": "2026-05-17",
+    "time": "2026-10-01T04:28:16",
+    "customer": {
+      "name": "Customer 20",
+      "country": "FR",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 269,
+    "part": "PT-00075",
+    "size": 12.2477,
+    "ok": true,
+    "date": "2026-06-18",
+    "time": "2026-10-01T05:29:23",
+    "customer": {
+      "name": "Customer 21",
+      "country": "ES",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 270,
+    "part": "PT-00076",
+    "size": 12.3793,
+    "ok": true,
+    "date": "2026-07-19",
+    "time": "2026-10-01T06:30:30",
+    "customer": {
+      "name": "Customer 22",
+      "country": "ES",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 271,
+    "part": "PT-00077",
+    "size": 12.6998,
+    "ok": false,
+    "date": "2026-08-20",
+    "time": "2026-10-01T07:31:37",
+    "customer": {
+      "name": "Customer 23",
+      "country": "ES",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 272,
+    "part": "PT-00078",
+    "size": 12.9344,
+    "ok": true,
+    "date": "2026-09-21",
+    "time": "2026-10-01T08:32:44",
+    "customer": {
+      "name": "Customer 24",
+      "country": "ES",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 273,
+    "part": "PT-00079",
+    "ok": true,
+    "date": "2026-10-22",
+    "time": "2026-10-01T09:33:51",
+    "customer": {
+      "name": "Customer 25",
+      "country": "FR",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 274,
+    "part": "PT-00080",
+    "size": 12.4856,
+    "ok": false,
+    "date": "2026-11-23",
+    "time": "2026-10-01T10:34:58",
+    "customer": {
+      "name": "Customer 26",
+      "country": "FR",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 275,
+    "part": "PT-00081",
+    "size": 11.9709,
+    "ok": true,
+    "date": "2026-12-24",
+    "time": "2026-10-01T11:35:05",
+    "customer": {
+      "name": "Customer 27",
+      "country": "ES",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 276,
+    "part": "PT-00082",
+    "size": 12.4076,
+    "ok": true,
+    "date": "2026-01-25",
+    "time": "2026-10-01T12:36:12",
+    "customer": {
+      "name": "Customer 28",
+      "country": "FR",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 277,
+    "part": "PT-00083",
+    "size": 12.5183,
+    "ok": true,
+    "date": "2026-02-26",
+    "time": "2026-10-01T13:37:19",
+    "customer": {
+      "name": "Customer 29",
+      "country": "MX",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 278,
+    "part": "PT-00084",
+    "size": 12.2798,
+    "ok": true,
+    "date": "2026-03-27",
+    "time": "2026-10-01T14:38:26",
+    "customer": {
+      "name": "Customer 30",
+      "country": "FR",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 279,
+    "part": "PT-00085",
+    "size": 12.3886,
+    "ok": true,
+    "date": "2026-04-28",
+    "time": "2026-10-01T15:39:33",
+    "customer": {
+      "name": "Customer 0",
+      "country": "MX",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 280,
+    "part": "PT-00086",
+    "ok": true,
+    "date": "2026-05-01",
+    "time": "2026-10-01T16:40:40",
+    "customer": {
+      "name": "Customer 1",
+      "country": "MX",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 281,
+    "part": "PT-00087",
+    "size": 12.5096,
+    "ok": true,
+    "date": "2026-06-02",
+    "time": "2026-10-01T17:41:47",
+    "customer": {
+      "name": "Customer 2",
+      "country": "FR",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 282,
+    "part": "PT-00088",
+    "size": 12.1752,
+    "ok": true,
+    "date": "2026-07-03",
+    "time": "2026-10-01T18:42:54",
+    "customer": {
+      "name": "Customer 3",
+      "country": "MX",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 283,
+    "part": "PT-00089",
+    "size": 12.9641,
+    "ok": true,
+    "date": "2026-08-04",
+    "time": "2026-10-01T19:43:01",
+    "customer": {
+      "name": "Customer 4",
+      "country": "MX",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 284,
+    "part": "PT-00090",
+    "size": 12.7016,
+    "ok": true,
+    "date": "2026-09-05",
+    "time": "2026-10-01T20:44:08",
+    "customer": {
+      "name": "Customer 5",
+      "country": "FR",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 285,
+    "part": "PT-00091",
+    "size": 12.4177,
+    "ok": true,
+    "date": "2026-10-06",
+    "time": "2026-10-01T21:45:15",
+    "customer": {
+      "name": "Customer 6",
+      "country": "ES",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 286,
+    "part": "PT-00092",
+    "size": 12.6094,
+    "ok": true,
+    "date": "2026-11-07",
+    "time": "2026-10-01T22:46:22",
+    "customer": {
+      "name": "Customer 7",
+      "country": "FR",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 287,
+    "part": "PT-00093",
+    "ok": true,
+    "date": "2026-12-08",
+    "time": "2026-10-01T23:47:29",
+    "customer": {
+      "name": "Customer 8",
+      "country": "MX",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 288,
+    "part": "PT-00094",
+    "size": 12.2554,
+    "ok": true,
+    "date": "2026-01-09",
+    "time": "2026-10-01T00:48:36",
+    "customer": {
+      "name": "Customer 9",
+      "country": "MX",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 289,
+    "part": "PT-00095",
+    "size": 12.6747,
+    "ok": true,
+    "date": "2026-02-10",
+    "time": "2026-10-01T01:49:43",
+    "customer": {
+      "name": "Customer 10",
+      "country": "FR",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 290,
+    "part": "PT-00096",
+    "size": 12.7013,
+    "ok": true,
+    "date": "2026-03-11",
+    "time": "2026-10-01T02:50:50",
+    "customer": {
+      "name": "Customer 11",
+      "country": "FR",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 291,
+    "part": "PT-00000",
+    "size": 12.5321,
+    "ok": true,
+    "date": "2026-04-12",
+    "time": "2026-10-01T03:51:57",
+    "customer": {
+      "name": "Customer 12",
+      "country": "ES",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 292,
+    "part": "PT-00001",
+    "size": 12.9209,
+    "ok": true,
+    "date": "2026-05-13",
+    "time": "2026-10-01T04:52:04",
+    "customer": {
+      "name": "Customer 13",
+      "country": "MX",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 293,
+    "part": "PT-00002",
+    "size": 12.4533,
+    "ok": true,
+    "date": "2026-06-14",
+    "time": "2026-10-01T05:53:11",
+    "customer": {
+      "name": "Customer 14",
+      "country": "FR",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 294,
+    "part": "PT-00003",
+    "ok": true,
+    "date": "2026-07-15",
+    "time": "2026-10-01T06:54:18",
+    "customer": {
+      "name": "Customer 15",
+      "country": "ES",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 295,
+    "part": "PT-00004",
+    "size": 12.0676,
+    "ok": true,
+    "date": "2026-08-16",
+    "time": "2026-10-01T07:55:25",
+    "customer": {
+      "name": "Customer 16",
+      "country": "ES",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 296,
+    "part": "PT-00005",
+    "size": 12.2409,
+    "ok": true,
+    "date": "2026-09-17",
+    "time": "2026-10-01T08:56:32",
+    "customer": {
+      "name": "Customer 17",
+      "country": "ES",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 297,
+    "part": "PT-00006",
+    "size": 12.0796,
+    "ok": true,
+    "date": "2026-10-18",
+    "time": "2026-10-01T09:57:39",
+    "customer": {
+      "name": "Customer 18",
+      "country": "ES",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 298,
+    "part": "PT-00007",
+    "size": 12.3631,
+    "ok": true,
+    "date": "2026-11-19",
+    "time": "2026-10-01T10:58:46",
+    "customer": {
+      "name": "Customer 19",
+      "country": "FR",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 299,
+    "part": "PT-00008",
+    "size": 12.4257,
+    "ok": true,
+    "date": "2026-12-20",
+    "time": "2026-10-01T11:59:53",
+    "customer": {
+      "name": "Customer 20",
+      "country": "MX",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 300,
+    "part": "PT-00009",
+    "size": 12.4449,
+    "ok": true,
+    "date": "2026-01-21",
+    "time": "2026-10-01T12:00:00",
+    "customer": {
+      "name": "Customer 21",
+      "country": "FR",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ",
+    "extra": 600
+  },
+  {
+    "id": 301,
+    "part": "PT-00010",
+    "ok": true,
+    "date": "2026-02-22",
+    "time": "2026-10-01T13:01:07",
+    "customer": {
+      "name": "Customer 22",
+      "country": "MX",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 302,
+    "part": "PT-00011",
+    "size": 12.9748,
+    "ok": true,
+    "date": "2026-03-23",
+    "time": "2026-10-01T14:02:14",
+    "customer": {
+      "name": "Customer 23",
+      "country": "ES",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 303,
+    "part": "PT-00012",
+    "size": 12.4241,
+    "ok": true,
+    "date": "2026-04-24",
+    "time": "2026-10-01T15:03:21",
+    "customer": {
+      "name": "Customer 24",
+      "country": "ES",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 304,
+    "part": "PT-00013",
+    "size": 12.7232,
+    "ok": true,
+    "date": "2026-05-25",
+    "time": "2026-10-01T16:04:28",
+    "customer": {
+      "name": "Customer 25",
+      "country": "MX",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 305,
+    "part": "PT-00014",
+    "size": 12.4364,
+    "ok": true,
+    "date": "2026-06-26",
+    "time": "2026-10-01T17:05:35",
+    "customer": {
+      "name": "Customer 26",
+      "country": "FR",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 306,
+    "part": "PT-00015",
+    "size": 12.7372,
+    "ok": true,
+    "date": "2026-07-27",
+    "time": "2026-10-01T18:06:42",
+    "customer": {
+      "name": "Customer 27",
+      "country": "ES",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 307,
+    "part": "PT-00016",
+    "size": 12.6761,
+    "ok": true,
+    "date": "2026-08-28",
+    "time": "2026-10-01T19:07:49",
+    "customer": {
+      "name": "Customer 28",
+      "country": "ES",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 308,
+    "part": "PT-00017",
+    "ok": true,
+    "date": "2026-09-01",
+    "time": "2026-10-01T20:08:56",
+    "customer": {
+      "name": "Customer 29",
+      "country": "ES",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 309,
+    "part": "PT-00018",
+    "size": 12.6427,
+    "ok": true,
+    "date": "2026-10-02",
+    "time": "2026-10-01T21:09:03",
+    "customer": {
+      "name": "Customer 30",
+      "country": "ES",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 310,
+    "part": "PT-00019",
+    "size": 12.4534,
+    "ok": true,
+    "date": "2026-11-03",
+    "time": "2026-10-01T22:10:10",
+    "customer": {
+      "name": "Customer 0",
+      "country": "ES",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 311,
+    "part": "PT-00020",
+    "size": 12.5107,
+    "ok": true,
+    "date": "2026-12-04",
+    "time": "2026-10-01T23:11:17",
+    "customer": {
+      "name": "Customer 1",
+      "country": "FR",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 312,
+    "part": "PT-00021",
+    "size": 12.7496,
+    "ok": false,
+    "date": "2026-01-05",
+    "time": "2026-10-01T00:12:24",
+    "customer": {
+      "name": "Customer 2",
+      "country": "ES",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 313,
+    "part": "PT-00022",
+    "size": 12.4699,
+    "ok": true,
+    "date": "2026-02-06",
+    "time": "2026-10-01T01:13:31",
+    "customer": {
+      "name": "Customer 3",
+      "country": "ES",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 314,
+    "part": "PT-00023",
+    "size": 12.7233,
+    "ok": true,
+    "date": "2026-03-07",
+    "time": "2026-10-01T02:14:38",
+    "customer": {
+      "name": "Customer 4",
+      "country": "FR",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 315,
+    "part": "PT-00024",
+    "ok": true,
+    "date": "2026-04-08",
+    "time": "2026-10-01T03:15:45",
+    "customer": {
+      "name": "Customer 5",
+      "country": "FR",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 316,
+    "part": "PT-00025",
+    "size": 12.1507,
+    "ok": true,
+    "date": "2026-05-09",
+    "time": "2026-10-01T04:16:52",
+    "customer": {
+      "name": "Customer 6",
+      "country": "FR",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 317,
+    "part": "PT-00026",
+    "size": 12.0366,
+    "ok": true,
+    "date": "2026-06-10",
+    "time": "2026-10-01T05:17:59",
+    "customer": {
+      "name": "Customer 7",
+      "country": "FR",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 318,
+    "part": "PT-00027",
+    "size": 12.3189,
+    "ok": true,
+    "date": "2026-07-11",
+    "time": "2026-10-01T06:18:06",
+    "customer": {
+      "name": "Customer 8",
+      "country": "FR",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 319,
+    "part": "PT-00028",
+    "size": 11.9417,
+    "ok": true,
+    "date": "2026-08-12",
+    "time": "2026-10-01T07:19:13",
+    "customer": {
+      "name": "Customer 9",
+      "country": "ES",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 320,
+    "part": "PT-00029",
+    "size": 12.3372,
+    "ok": true,
+    "date": "2026-09-13",
+    "time": "2026-10-01T08:20:20",
+    "customer": {
+      "name": "Customer 10",
+      "country": "ES",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 321,
+    "part": "PT-00030",
+    "size": 12.8894,
+    "ok": true,
+    "date": "2026-10-14",
+    "time": "2026-10-01T09:21:27",
+    "customer": {
+      "name": "Customer 11",
+      "country": "ES",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 322,
+    "part": "PT-00031",
+    "ok": true,
+    "date": "2026-11-15",
+    "time": "2026-10-01T10:22:34",
+    "customer": {
+      "name": "Customer 12",
+      "country": "ES",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 323,
+    "part": "PT-00032",
+    "size": 12.0885,
+    "ok": true,
+    "date": "2026-12-16",
+    "time": "2026-10-01T11:23:41",
+    "customer": {
+      "name": "Customer 13",
+      "country": "MX",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 324,
+    "part": "PT-00033",
+    "size": 12.2777,
+    "ok": true,
+    "date": "2026-01-17",
+    "time": "2026-10-01T12:24:48",
+    "customer": {
+      "name": "Customer 14",
+      "country": "MX",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 325,
+    "part": "PT-00034",
+    "size": 12.2871,
+    "ok": true,
+    "date": "2026-02-18",
+    "time": "2026-10-01T13:25:55",
+    "customer": {
+      "name": "Customer 15",
+      "country": "ES",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 326,
+    "part": "PT-00035",
+    "size": 12.5524,
+    "ok": true,
+    "date": "2026-03-19",
+    "time": "2026-10-01T14:26:02",
+    "customer": {
+      "name": "Customer 16",
+      "country": "MX",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 327,
+    "part": "PT-00036",
+    "size": 12.207,
+    "ok": false,
+    "date": "2026-04-20",
+    "time": "2026-10-01T15:27:09",
+    "customer": {
+      "name": "Customer 17",
+      "country": "FR",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 328,
+    "part": "PT-00037",
+    "size": 12.5954,
+    "ok": true,
+    "date": "2026-05-21",
+    "time": "2026-10-01T16:28:16",
+    "customer": {
+      "name": "Customer 18",
+      "country": "MX",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 329,
+    "part": "PT-00038",
+    "ok": true,
+    "date": "2026-06-22",
+    "time": "2026-10-01T17:29:23",
+    "customer": {
+      "name": "Customer 19",
+      "country": "MX",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 330,
+    "part": "PT-00039",
+    "size": 12.69,
+    "ok": true,
+    "date": "2026-07-23",
+    "time": "2026-10-01T18:30:30",
+    "customer": {
+      "name": "Customer 20",
+      "country": "ES",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 331,
+    "part": "PT-00040",
+    "size": 12.2284,
+    "ok": true,
+    "date": "2026-08-24",
+    "time": "2026-10-01T19:31:37",
+    "customer": {
+      "name": "Customer 21",
+      "country": "FR",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 332,
+    "part": "PT-00041",
+    "size": 12.5762,
+    "ok": true,
+    "date": "2026-09-25",
+    "time": "2026-10-01T20:32:44",
+    "customer": {
+      "name": "Customer 22",
+      "country": "FR",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 333,
+    "part": "PT-00042",
+    "size": 12.2219,
+    "ok": true,
+    "date": "2026-10-26",
+    "time": "2026-10-01T21:33:51",
+    "customer": {
+      "name": "Customer 23",
+      "country": "MX",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 334,
+    "part": "PT-00043",
+    "size": 12.6908,
+    "ok": true,
+    "date": "2026-11-27",
+    "time": "2026-10-01T22:34:58",
+    "customer": {
+      "name": "Customer 24",
+      "country": "MX",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 335,
+    "part": "PT-00044",
+    "size": 12.4883,
+    "ok": true,
+    "date": "2026-12-28",
+    "time": "2026-10-01T23:35:05",
+    "customer": {
+      "name": "Customer 25",
+      "country": "FR",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 336,
+    "part": "PT-00045",
+    "ok": true,
+    "date": "2026-01-01",
+    "time": "2026-10-01T00:36:12",
+    "customer": {
+      "name": "Customer 26",
+      "country": "ES",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 337,
+    "part": "PT-00046",
+    "size": 12.5807,
+    "ok": true,
+    "date": "2026-02-02",
+    "time": "2026-10-01T01:37:19",
+    "customer": {
+      "name": "Customer 27",
+      "country": "MX",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 338,
+    "part": "PT-00047",
+    "size": 12.2267,
+    "ok": true,
+    "date": "2026-03-03",
+    "time": "2026-10-01T02:38:26",
+    "customer": {
+      "name": "Customer 28",
+      "country": "ES",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 339,
+    "part": "PT-00048",
+    "size": 12.6534,
+    "ok": true,
+    "date": "2026-04-04",
+    "time": "2026-10-01T03:39:33",
+    "customer": {
+      "name": "Customer 29",
+      "country": "MX",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 340,
+    "part": "PT-00049",
+    "size": 12.5789,
+    "ok": true,
+    "date": "2026-05-05",
+    "time": "2026-10-01T04:40:40",
+    "customer": {
+      "name": "Customer 30",
+      "country": "FR",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 341,
+    "part": "PT-00050",
+    "size": 12.9871,
+    "ok": true,
+    "date": "2026-06-06",
+    "time": "2026-10-01T05:41:47",
+    "customer": {
+      "name": "Customer 0",
+      "country": "ES",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 342,
+    "part": "PT-00051",
+    "size": 12.3252,
+    "ok": true,
+    "date": "2026-07-07",
+    "time": "2026-10-01T06:42:54",
+    "customer": {
+      "name": "Customer 1",
+      "country": "MX",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 343,
+    "part": "PT-00052",
+    "ok": true,
+    "date": "2026-08-08",
+    "time": "2026-10-01T07:43:01",
+    "customer": {
+      "name": "Customer 2",
+      "country": "FR",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 344,
+    "part": "PT-00053",
+    "size": 12.6503,
+    "ok": true,
+    "date": "2026-09-09",
+    "time": "2026-10-01T08:44:08",
+    "customer": {
+      "name": "Customer 3",
+      "country": "MX",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 345,
+    "part": "PT-00054",
+    "size": 12.903,
+    "ok": true,
+    "date": "2026-10-10",
+    "time": "2026-10-01T09:45:15",
+    "customer": {
+      "name": "Customer 4",
+      "country": "FR",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 346,
+    "part": "PT-00055",
+    "size": 12.7595,
+    "ok": true,
+    "date": "2026-11-11",
+    "time": "2026-10-01T10:46:22",
+    "customer": {
+      "name": "Customer 5",
+      "country": "ES",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 347,
+    "part": "PT-00056",
+    "size": 12.0329,
+    "ok": true,
+    "date": "2026-12-12",
+    "time": "2026-10-01T11:47:29",
+    "customer": {
+      "name": "Customer 6",
+      "country": "FR",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 348,
+    "part": "PT-00057",
+    "size": 12.9014,
+    "ok": true,
+    "date": "2026-01-13",
+    "time": "2026-10-01T12:48:36",
+    "customer": {
+      "name": "Customer 7",
+      "country": "MX",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 349,
+    "part": "PT-00058",
+    "size": 12.9023,
+    "ok": true,
+    "date": "2026-02-14",
+    "time": "2026-10-01T13:49:43",
+    "customer": {
+      "name": "Customer 8",
+      "country": "ES",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 350,
+    "part": "PT-00059",
+    "ok": true,
+    "date": "2026-03-15",
+    "time": "2026-10-01T14:50:50",
+    "customer": {
+      "name": "Customer 9",
+      "country": "ES",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ",
+    "extra": 700
+  },
+  {
+    "id": 351,
+    "part": "PT-00060",
+    "size": 11.7095,
+    "ok": false,
+    "date": "2026-04-16",
+    "time": "2026-10-01T15:51:57",
+    "customer": {
+      "name": "Customer 10",
+      "country": "FR",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 352,
+    "part": "PT-00061",
+    "size": 12.5854,
+    "ok": true,
+    "date": "2026-05-17",
+    "time": "2026-10-01T16:52:04",
+    "customer": {
+      "name": "Customer 11",
+      "country": "ES",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 353,
+    "part": "PT-00062",
+    "size": 12.2308,
+    "ok": true,
+    "date": "2026-06-18",
+    "time": "2026-10-01T17:53:11",
+    "customer": {
+      "name": "Customer 12",
+      "country": "ES",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 354,
+    "part": "PT-00063",
+    "size": 12.4094,
+    "ok": true,
+    "date": "2026-07-19",
+    "time": "2026-10-01T18:54:18",
+    "customer": {
+      "name": "Customer 13",
+      "country": "MX",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 355,
+    "part": "PT-00064",
+    "size": 12.4113,
+    "ok": true,
+    "date": "2026-08-20",
+    "time": "2026-10-01T19:55:25",
+    "customer": {
+      "name": "Customer 14",
+      "country": "ES",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 356,
+    "part": "PT-00065",
+    "size": 13.027,
+    "ok": true,
+    "date": "2026-09-21",
+    "time": "2026-10-01T20:56:32",
+    "customer": {
+      "name": "Customer 15",
+      "country": "MX",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 357,
+    "part": "PT-00066",
+    "ok": true,
+    "date": "2026-10-22",
+    "time": "2026-10-01T21:57:39",
+    "customer": {
+      "name": "Customer 16",
+      "country": "ES",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 358,
+    "part": "PT-00067",
+    "size": 12.4651,
+    "ok": false,
+    "date": "2026-11-23",
+    "time": "2026-10-01T22:58:46",
+    "customer": {
+      "name": "Customer 17",
+      "country": "MX",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 359,
+    "part": "PT-00068",
+    "size": 12.4613,
+    "ok": true,
+    "date": "2026-12-24",
+    "time": "2026-10-01T23:59:53",
+    "customer": {
+      "name": "Customer 18",
+      "country": "ES",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 360,
+    "part": "PT-00069",
+    "size": 12.1933,
+    "ok": true,
+    "date": "2026-01-25",
+    "time": "2026-10-01T00:00:00",
+    "customer": {
+      "name": "Customer 19",
+      "country": "MX",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 361,
+    "part": "PT-00070",
+    "size": 12.2521,
+    "ok": true,
+    "date": "2026-02-26",
+    "time": "2026-10-01T01:01:07",
+    "customer": {
+      "name": "Customer 20",
+      "country": "ES",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 362,
+    "part": "PT-00071",
+    "size": 12.5446,
+    "ok": true,
+    "date": "2026-03-27",
+    "time": "2026-10-01T02:02:14",
+    "customer": {
+      "name": "Customer 21",
+      "country": "FR",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 363,
+    "part": "PT-00072",
+    "size": 12.2997,
+    "ok": true,
+    "date": "2026-04-28",
+    "time": "2026-10-01T03:03:21",
+    "customer": {
+      "name": "Customer 22",
+      "country": "FR",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 364,
+    "part": "PT-00073",
+    "ok": true,
+    "date": "2026-05-01",
+    "time": "2026-10-01T04:04:28",
+    "customer": {
+      "name": "Customer 23",
+      "country": "FR",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 365,
+    "part": "PT-00074",
+    "size": 12.1707,
+    "ok": true,
+    "date": "2026-06-02",
+    "time": "2026-10-01T05:05:35",
+    "customer": {
+      "name": "Customer 24",
+      "country": "ES",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 366,
+    "part": "PT-00075",
+    "size": 12.6497,
+    "ok": true,
+    "date": "2026-07-03",
+    "time": "2026-10-01T06:06:42",
+    "customer": {
+      "name": "Customer 25",
+      "country": "FR",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 367,
+    "part": "PT-00076",
+    "size": 12.9359,
+    "ok": true,
+    "date": "2026-08-04",
+    "time": "2026-10-01T07:07:49",
+    "customer": {
+      "name": "Customer 26",
+      "country": "FR",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 368,
+    "part": "PT-00077",
+    "size": 12.7827,
+    "ok": true,
+    "date": "2026-09-05",
+    "time": "2026-10-01T08:08:56",
+    "customer": {
+      "name": "Customer 27",
+      "country": "MX",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 369,
+    "part": "PT-00078",
+    "size": 12.2434,
+    "ok": true,
+    "date": "2026-10-06",
+    "time": "2026-10-01T09:09:03",
+    "customer": {
+      "name": "Customer 28",
+      "country": "ES",
+      "contact": {
+        "email": "c28@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 370,
+    "part": "PT-00079",
+    "size": 12.396,
+    "ok": true,
+    "date": "2026-11-07",
+    "time": "2026-10-01T10:10:10",
+    "customer": {
+      "name": "Customer 29",
+      "country": "MX",
+      "contact": {
+        "email": "c29@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 371,
+    "part": "PT-00080",
+    "ok": true,
+    "date": "2026-12-08",
+    "time": "2026-10-01T11:11:17",
+    "customer": {
+      "name": "Customer 30",
+      "country": "MX",
+      "contact": {
+        "email": "c30@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 372,
+    "part": "PT-00081",
+    "size": 12.1264,
+    "ok": true,
+    "date": "2026-01-09",
+    "time": "2026-10-01T12:12:24",
+    "customer": {
+      "name": "Customer 0",
+      "country": "MX",
+      "contact": {
+        "email": "c0@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 373,
+    "part": "PT-00082",
+    "size": 12.5043,
+    "ok": true,
+    "date": "2026-02-10",
+    "time": "2026-10-01T13:13:31",
+    "customer": {
+      "name": "Customer 1",
+      "country": "ES",
+      "contact": {
+        "email": "c1@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 374,
+    "part": "PT-00083",
+    "size": 12.122,
+    "ok": true,
+    "date": "2026-03-11",
+    "time": "2026-10-01T14:14:38",
+    "customer": {
+      "name": "Customer 2",
+      "country": "ES",
+      "contact": {
+        "email": "c2@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 375,
+    "part": "PT-00084",
+    "size": 12.5771,
+    "ok": true,
+    "date": "2026-04-12",
+    "time": "2026-10-01T15:15:45",
+    "customer": {
+      "name": "Customer 3",
+      "country": "ES",
+      "contact": {
+        "email": "c3@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 376,
+    "part": "PT-00085",
+    "size": 12.9504,
+    "ok": true,
+    "date": "2026-05-13",
+    "time": "2026-10-01T16:16:52",
+    "customer": {
+      "name": "Customer 4",
+      "country": "ES",
+      "contact": {
+        "email": "c4@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 377,
+    "part": "PT-00086",
+    "size": 12.4999,
+    "ok": true,
+    "date": "2026-06-14",
+    "time": "2026-10-01T17:17:59",
+    "customer": {
+      "name": "Customer 5",
+      "country": "MX",
+      "contact": {
+        "email": "c5@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 378,
+    "part": "PT-00087",
+    "ok": true,
+    "date": "2026-07-15",
+    "time": "2026-10-01T18:18:06",
+    "customer": {
+      "name": "Customer 6",
+      "country": "ES",
+      "contact": {
+        "email": "c6@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 379,
+    "part": "PT-00088",
+    "size": 12.5118,
+    "ok": true,
+    "date": "2026-08-16",
+    "time": "2026-10-01T19:19:13",
+    "customer": {
+      "name": "Customer 7",
+      "country": "MX",
+      "contact": {
+        "email": "c7@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 380,
+    "part": "PT-00089",
+    "size": 12.1553,
+    "ok": true,
+    "date": "2026-09-17",
+    "time": "2026-10-01T20:20:20",
+    "customer": {
+      "name": "Customer 8",
+      "country": "MX",
+      "contact": {
+        "email": "c8@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": "check ñ"
+  },
+  {
+    "id": 381,
+    "part": "PT-00090",
+    "size": 12.477,
+    "ok": true,
+    "date": "2026-10-18",
+    "time": "2026-10-01T21:21:27",
+    "customer": {
+      "name": "Customer 9",
+      "country": "ES",
+      "contact": {
+        "email": "c9@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 382,
+    "part": "PT-00091",
+    "size": 12.3074,
+    "ok": true,
+    "date": "2026-11-19",
+    "time": "2026-10-01T22:22:34",
+    "customer": {
+      "name": "Customer 10",
+      "country": "ES",
+      "contact": {
+        "email": "c10@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 383,
+    "part": "PT-00092",
+    "size": 12.3068,
+    "ok": true,
+    "date": "2026-12-20",
+    "time": "2026-10-01T23:23:41",
+    "customer": {
+      "name": "Customer 11",
+      "country": "FR",
+      "contact": {
+        "email": "c11@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 384,
+    "part": "PT-00093",
+    "size": 11.876,
+    "ok": true,
+    "date": "2026-01-21",
+    "time": "2026-10-01T00:24:48",
+    "customer": {
+      "name": "Customer 12",
+      "country": "ES",
+      "contact": {
+        "email": "c12@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 385,
+    "part": "PT-00094",
+    "ok": true,
+    "date": "2026-02-22",
+    "time": "2026-10-01T01:25:55",
+    "customer": {
+      "name": "Customer 13",
+      "country": "FR",
+      "contact": {
+        "email": "c13@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 386,
+    "part": "PT-00095",
+    "size": 12.7344,
+    "ok": true,
+    "date": "2026-03-23",
+    "time": "2026-10-01T02:26:02",
+    "customer": {
+      "name": "Customer 14",
+      "country": "ES",
+      "contact": {
+        "email": "c14@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 387,
+    "part": "PT-00096",
+    "size": 12.5806,
+    "ok": true,
+    "date": "2026-04-24",
+    "time": "2026-10-01T03:27:09",
+    "customer": {
+      "name": "Customer 15",
+      "country": "FR",
+      "contact": {
+        "email": "c15@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 388,
+    "part": "PT-00000",
+    "size": 13.1065,
+    "ok": true,
+    "date": "2026-05-25",
+    "time": "2026-10-01T04:28:16",
+    "customer": {
+      "name": "Customer 16",
+      "country": "MX",
+      "contact": {
+        "email": "c16@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 389,
+    "part": "PT-00001",
+    "size": 12.4399,
+    "ok": true,
+    "date": "2026-06-26",
+    "time": "2026-10-01T05:29:23",
+    "customer": {
+      "name": "Customer 17",
+      "country": "MX",
+      "contact": {
+        "email": "c17@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 390,
+    "part": "PT-00002",
+    "size": 12.3725,
+    "ok": true,
+    "date": "2026-07-27",
+    "time": "2026-10-01T06:30:30",
+    "customer": {
+      "name": "Customer 18",
+      "country": "FR",
+      "contact": {
+        "email": "c18@example.com"
+      }
+    },
+    "tags": [],
+    "note": "check ñ"
+  },
+  {
+    "id": 391,
+    "part": "PT-00003",
+    "size": 12.7289,
+    "ok": true,
+    "date": "2026-08-28",
+    "time": "2026-10-01T07:31:37",
+    "customer": {
+      "name": "Customer 19",
+      "country": "MX",
+      "contact": {
+        "email": "c19@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 392,
+    "part": "PT-00004",
+    "ok": true,
+    "date": "2026-09-01",
+    "time": "2026-10-01T08:32:44",
+    "customer": {
+      "name": "Customer 20",
+      "country": "ES",
+      "contact": {
+        "email": "c20@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 393,
+    "part": "PT-00005",
+    "size": 12.4162,
+    "ok": true,
+    "date": "2026-10-02",
+    "time": "2026-10-01T09:33:51",
+    "customer": {
+      "name": "Customer 21",
+      "country": "MX",
+      "contact": {
+        "email": "c21@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 394,
+    "part": "PT-00006",
+    "size": 12.3845,
+    "ok": false,
+    "date": "2026-11-03",
+    "time": "2026-10-01T10:34:58",
+    "customer": {
+      "name": "Customer 22",
+      "country": "ES",
+      "contact": {
+        "email": "c22@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 395,
+    "part": "PT-00007",
+    "size": 12.5856,
+    "ok": true,
+    "date": "2026-12-04",
+    "time": "2026-10-01T11:35:05",
+    "customer": {
+      "name": "Customer 23",
+      "country": "FR",
+      "contact": {
+        "email": "c23@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 396,
+    "part": "PT-00008",
+    "size": 12.8287,
+    "ok": true,
+    "date": "2026-01-05",
+    "time": "2026-10-01T12:36:12",
+    "customer": {
+      "name": "Customer 24",
+      "country": "ES",
+      "contact": {
+        "email": "c24@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 397,
+    "part": "PT-00009",
+    "size": 12.6305,
+    "ok": true,
+    "date": "2026-02-06",
+    "time": "2026-10-01T13:37:19",
+    "customer": {
+      "name": "Customer 25",
+      "country": "FR",
+      "contact": {
+        "email": "c25@example.com"
+      }
+    },
+    "tags": [
+      "a"
+    ],
+    "note": null
+  },
+  {
+    "id": 398,
+    "part": "PT-00010",
+    "size": 12.2885,
+    "ok": true,
+    "date": "2026-03-07",
+    "time": "2026-10-01T14:38:26",
+    "customer": {
+      "name": "Customer 26",
+      "country": "MX",
+      "contact": {
+        "email": "c26@example.com"
+      }
+    },
+    "tags": [
+      "a",
+      "b"
+    ],
+    "note": null
+  },
+  {
+    "id": 399,
+    "part": "PT-00011",
+    "ok": true,
+    "date": "2026-04-08",
+    "time": "2026-10-01T15:39:33",
+    "customer": {
+      "name": "Customer 27",
+      "country": "FR",
+      "contact": {
+        "email": "c27@example.com"
+      }
+    },
+    "tags": [],
+    "note": null
+  }
+]

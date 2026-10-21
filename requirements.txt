@@ -1,0 +1,2 @@
+# pyarrow does the CSV/JSON reading and the Parquet writing
+pyarrow>=14

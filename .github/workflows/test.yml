@@ -1,0 +1,83 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unit:
+    name: Unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements.txt pytest
+      - run: python -m pytest -v
+
+  action:
+    name: Action on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Convert, split into parts
+        id: convert
+        uses: ./
+        with:
+          path: |
+            tests/data/*.csv
+            tests/data/*.json
+            tests/data/sub
+          output: out
+          split-rows: 150
+          skip-bad-rows: true
+
+      - name: Combine, in Spanish
+        id: combine
+        uses: ./
+        with:
+          path: tests/data
+          output: out
+          combine: all.parquet
+          compression: zstd
+          skip-bad-rows: true
+          language: es
+
+      - name: A malformed file fails the step
+        id: broken
+        continue-on-error: true
+        uses: ./
+        with:
+          path: tests/data/malformed.csv
+          output: out-broken
+
+      - name: Check the results
+        shell: bash
+        env:
+          CONVERTED: ${{ steps.convert.outputs.converted }}
+          FAILED: ${{ steps.convert.outputs.failed }}
+          ROWS: ${{ steps.convert.outputs.rows }}
+          FILES: ${{ steps.convert.outputs.files }}
+          COMBINED: ${{ steps.combine.outputs.files }}
+          BROKEN: ${{ steps.broken.outcome }}
+        run: |
+          set -x
+          test "$CONVERTED" = 7
+          test "$FAILED" = 0
+          test "$ROWS" = 1502
+          echo "$FILES" | grep -qx "out/list/list_0003.parquet"
+          echo "$FILES" | grep -qx "out/lines/lines_0001.parquet"
+          test "$COMBINED" = "out/all.parquet"
+          test -f out/all.parquet
+          test "$BROKEN" = failure

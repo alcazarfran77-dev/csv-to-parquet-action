@@ -1,0 +1,155 @@
+name: CSV and JSON to Parquet
+description: Convert CSV and JSON files to Apache Parquet. Detects separators, encodings and column types; can split and combine.
+author: CSV to Parquet contributors
+
+branding:
+  icon: database
+  color: green
+
+inputs:
+  path:
+    description: >
+      Files, folders or glob patterns to convert, one per line ("**" matches subfolders).
+      Reads .csv, .tsv, .json, .jsonl, .ndjson and their .gz versions.
+    required: true
+  output:
+    description: Folder for the Parquet files. Empty = next to each source file.
+    required: false
+    default: ""
+  recursive:
+    description: Look inside the subfolders of the folders given in "path".
+    required: false
+    default: "true"
+  keep-structure:
+    description: With "output", recreate the source subfolders below it.
+    required: false
+    default: "true"
+  overwrite:
+    description: Replace Parquet files that already exist (otherwise they are skipped).
+    required: false
+    default: "false"
+  compression:
+    description: snappy, zstd, gzip or none.
+    required: false
+    default: snappy
+  separator:
+    description: 'CSV separator: auto, ",", ";", "|" or tab.'
+    required: false
+    default: auto
+  encoding:
+    description: auto, utf-8, cp1252, latin-1 or utf-16.
+    required: false
+    default: auto
+  decimal:
+    description: 'CSV decimal mark: auto, "." or ",".'
+    required: false
+    default: auto
+  header:
+    description: The first CSV row has the column names.
+    required: false
+    default: "true"
+  dmy-dates:
+    description: Read dd/mm/yyyy values as dates (set to false for mm/dd/yyyy data).
+    required: false
+    default: "true"
+  all-text:
+    description: Store every column as text (no type detection).
+    required: false
+    default: "false"
+  skip-bad-rows:
+    description: Skip malformed CSV rows and JSON Lines instead of failing the file.
+    required: false
+    default: "false"
+  combine:
+    description: Combine every file into one Parquet with this name (e.g. all.parquet). Empty = one Parquet per file.
+    required: false
+    default: ""
+  source-column:
+    description: With "combine", add a "source_file" column with the name of each row's file.
+    required: false
+    default: "true"
+  split-rows:
+    description: Split each Parquet into parts of at most this many rows (in a folder named after the file).
+    required: false
+    default: ""
+  split-mb:
+    description: Split each Parquet into parts of about this many MB.
+    required: false
+    default: ""
+  fail-on-error:
+    description: Fail the step if any file could not be converted.
+    required: false
+    default: "true"
+  language:
+    description: Language of the log and the job summary, en or es.
+    required: false
+    default: en
+  python-version:
+    description: Python version used to run the converter. Empty = use the Python already on the runner.
+    required: false
+    default: "3.12"
+
+outputs:
+  converted:
+    description: Number of files converted.
+    value: ${{ steps.convert.outputs.converted }}
+  failed:
+    description: Number of files that could not be converted.
+    value: ${{ steps.convert.outputs.failed }}
+  skipped:
+    description: Number of files skipped because their Parquet already existed.
+    value: ${{ steps.convert.outputs.skipped }}
+  rows:
+    description: Total number of rows written.
+    value: ${{ steps.convert.outputs.rows }}
+  files:
+    description: The Parquet files written, one per line.
+    value: ${{ steps.convert.outputs.files }}
+
+runs:
+  using: composite
+  steps:
+    - name: Set up Python
+      id: python
+      if: inputs.python-version != ''
+      uses: actions/setup-python@v7
+      with:
+        python-version: ${{ inputs.python-version }}
+        update-environment: false
+
+    - name: Convert to Parquet
+      id: convert
+      shell: bash
+      env:
+        CTP_PYTHON: ${{ steps.python.outputs.python-path }}
+        CTP_PATH: ${{ inputs.path }}
+        CTP_OUTPUT: ${{ inputs.output }}
+        CTP_RECURSIVE: ${{ inputs.recursive }}
+        CTP_KEEP_STRUCTURE: ${{ inputs.keep-structure }}
+        CTP_OVERWRITE: ${{ inputs.overwrite }}
+        CTP_COMPRESSION: ${{ inputs.compression }}
+        CTP_SEPARATOR: ${{ inputs.separator }}
+        CTP_ENCODING: ${{ inputs.encoding }}
+        CTP_DECIMAL: ${{ inputs.decimal }}
+        CTP_HEADER: ${{ inputs.header }}
+        CTP_DMY_DATES: ${{ inputs.dmy-dates }}
+        CTP_ALL_TEXT: ${{ inputs.all-text }}
+        CTP_SKIP_BAD_ROWS: ${{ inputs.skip-bad-rows }}
+        CTP_COMBINE: ${{ inputs.combine }}
+        CTP_SOURCE_COLUMN: ${{ inputs.source-column }}
+        CTP_SPLIT_ROWS: ${{ inputs.split-rows }}
+        CTP_SPLIT_MB: ${{ inputs.split-mb }}
+        CTP_FAIL_ON_ERROR: ${{ inputs.fail-on-error }}
+        CTP_LANGUAGE: ${{ inputs.language }}
+      run: |
+        PY="$CTP_PYTHON"
+        if [ -z "$PY" ]; then PY="$(command -v python3 || command -v python || true)"; fi
+        if [ -z "$PY" ]; then echo "::error::Python was not found. Set the python-version input."; exit 1; fi
+        # pyarrow goes into a private folder: the job's own Python environment is not touched
+        LIB="$RUNNER_TEMP/csv-to-parquet-lib-$("$PY" -c 'import sys; print("%d.%d" % sys.version_info[:2])')"
+        if [ ! -f "$LIB/.ready" ]; then
+          PIP_ROOT_USER_ACTION=ignore "$PY" -m pip install --quiet --disable-pip-version-check --no-warn-script-location \
+            --target "$LIB" -r "$GITHUB_ACTION_PATH/requirements.txt"
+          touch "$LIB/.ready"
+        fi
+        PYTHONPATH="$LIB" "$PY" "$GITHUB_ACTION_PATH/run_action.py"
